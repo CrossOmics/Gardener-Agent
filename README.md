@@ -1,7 +1,10 @@
 <div align="center">
-  <h1 style="display: flex; align-items: center; justify-content: center; gap: 12px;">
-    <img src="util/logo.png" width="72" alt="Gardener Logo">Gardener Biological Agent
-  </h1>
+  <table style="border: none; margin: 0 auto;">
+    <tr>
+      <td style="vertical-align: middle; border: none; padding: 0;"><img src="util/logo.png" width="72" alt="Gardener Logo"></td>
+      <td style="vertical-align: middle; border: none; padding: 0 0 0 12px;"><h1 style="margin: 0;">Gardener Biological Agent</h1></td>
+    </tr>
+  </table>
 </div>
 
 > An AI-driven biological analysis engine for privacy-preserving, expert-steered single-cell RNA sequencing (scRNA-seq).
