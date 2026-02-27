@@ -3,7 +3,7 @@
 > An AI-driven biological analysis engine for privacy-preserving, expert-steered single-cell RNA sequencing (scRNA-seq).
 
 
-**We're live!** *Gardener Biological Agent Beta 1.0.0* is here — and we're opening it up for internal testing. Try it, break it, tell us what you think!
+**News:** *Gardener Biological Agent Beta 1.0.0* is here — we're opening it up for internal testing. We plan to move this to HPC node. Try it and tell us what you think!
 
 ## What is Gardener?
 
@@ -27,6 +27,8 @@ Unlike existing cloud-centric LLM agents, Gardener ensures that **your sensitive
   A rich local Graphical User Interface (GUI) provides real-time visualization of outputs (such as UMAPs and DotPlots). You retain full control to steer the analysis, refine clusters, and validate biological findings before proceeding.
 ---
 ## How it Works
+
+![Gardener](util/Gardener.png)
 
 1. **Interact:**  
    Provide high-level instructions via the Chat Panel.
