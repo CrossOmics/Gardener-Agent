@@ -1,6 +1,6 @@
 <div align="center">
-  <h1 style="margin: 0; line-height: 72px;">
-    <img src="util/logo.png" width="72" alt="Gardener Logo" style="vertical-align: middle; margin-right: 12px;">Gardener Biological Agent
+  <h1 style="margin: 0;">
+    <span style="display: inline-block; vertical-align: middle;"><img src="util/logo.png" width="72" alt="Gardener Logo"></span><span style="display: inline-block; vertical-align: middle; margin-left: 12px;">Gardener Biological Agent</span>
   </h1>
 </div>
 
