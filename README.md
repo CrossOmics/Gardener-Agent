@@ -2,10 +2,12 @@
   <h1 style="margin: 0;">Gardener Biological Agent</h1>
 </div>
 
-<div style="display: flex; align-items: center; gap: 16px; max-width: 720px; margin: 0 auto;">
-  <img src="util/logo.png" width="72" height="72" alt="Gardener Logo" style="flex-shrink: 0;" />
-  <p style="margin: 0; line-height: 1.4; font-size: 1em;">An AI-driven biological analysis engine for privacy-preserving, expert-steered single-cell RNA sequencing (scRNA-seq).</p>
-</div>
+<table style="margin: 0 auto; max-width: 720px; border: 0 !important; border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: middle; width: 72px; padding: 0 16px 0 0; border: 0;"><img src="util/logo.png" width="72" height="72" alt="Gardener Logo"></td>
+    <td style="vertical-align: middle; padding: 0; border: 0;"><span style="line-height: 1.4;">An AI-driven biological analysis engine for privacy-preserving, expert-steered single-cell RNA sequencing (scRNA-seq).</span></td>
+  </tr>
+</table>
 
 
 **News:** *Gardener Biological Agent Beta 1.0.0* is here — we're opening it up for internal testing. We plan to move this to HPC node. Try it and tell us what you think!
