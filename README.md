@@ -1,6 +1,6 @@
 # Gardener Biological Agent
 
-![Gardener Logo](util/Gardener.png)
+![Gardener Logo](util/logo.png)
 
 > An AI-driven biological analysis engine for privacy-preserving, expert-steered single-cell RNA sequencing (scRNA-seq).
 
