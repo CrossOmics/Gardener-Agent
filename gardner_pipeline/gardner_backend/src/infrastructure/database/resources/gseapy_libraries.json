@@ -1,0 +1,3474 @@
+[
+  {
+    "name": "ARCHS4_Cell-lines",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_IDG_Coexp",
+    "description": "ARCHS4 IDG Coexp gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_Kinases_Coexp",
+    "description": "ARCHS4 Kinases Coexp gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_TFs_Coexp",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_Tissues",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Achilles_fitness_decrease",
+    "description": "Achilles fitness decrease gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Achilles_fitness_increase",
+    "description": "Achilles fitness increase gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Aging_Perturbations_from_GEO_down",
+    "description": "Aging Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Aging_Perturbations_from_GEO_up",
+    "description": "Aging Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Allen_Brain_Atlas_10x_scRNA_2021",
+    "description": "Allen Brain Atlas 10x scRNA (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Allen_Brain_Atlas_down",
+    "description": "Allen Brain Atlas down gene sets for Human",
+    "species": "Human",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Allen_Brain_Atlas_up",
+    "description": "Allen Brain Atlas up gene sets for Human",
+    "species": "Human",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Azimuth_2023",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Azimuth_Cell_Types_2021",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2013",
+    "description": "BioCarta pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2015",
+    "description": "BioCarta pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2016",
+    "description": "BioCarta pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "BioPlanet_2019",
+    "description": "BioPlanet (version 2019) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "BioPlex_2017",
+    "description": "BioPlex (version 2017) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "CCLE_Proteomics_2020",
+    "description": "CCLE Proteomics (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "CM4AI_U2OS_Protein_Localization_Assemblies",
+    "description": "CM4AI U2OS Protein Localization Assemblies gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "COMPARTMENTS_Curated_2025",
+    "description": "COMPARTMENTS Curated (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "COMPARTMENTS_Experimental_2025",
+    "description": "COMPARTMENTS Experimental (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "CORUM",
+    "description": "CORUM gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "COVID-19_Related_Gene_Sets",
+    "description": "COVID-19 Related Gene Sets gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "COVID-19_Related_Gene_Sets_2021",
+    "description": "COVID-19 Related Gene Sets (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Cancer_Cell_Line_Encyclopedia",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Carcinogenome",
+    "description": "Carcinogenome gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "CellMarker_2024",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "CellMarker_Augmented_2021",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2013",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2016",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2022",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Chromosome_Location",
+    "description": "Chromosome Location gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Chromosome_Location_hg19",
+    "description": "Chromosome Location hg19 gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ClinVar_2019",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ClinVar_2025",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DGIdb_Drug_Targets_2024",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DSigDB",
+    "description": "DSigDB gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Data_Acquisition_Method_Most_Popular_Genes",
+    "description": "Data Acquisition Method Most Popular Genes gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DepMap_CRISPR_GeneDependency_CellLines_2023",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DepMap_WG_CRISPR_Screens_Broad_CellLines_2019",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DepMap_WG_CRISPR_Screens_Sanger_CellLines_2019",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Descartes_Cell_Types_and_Tissue_2021",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Diabetes_Perturbations_GEO_2022",
+    "description": "Diabetes Perturbations GEO (version 2022) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DisGeNET",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Disease_Perturbations_from_GEO_down",
+    "description": "Disease Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Disease_Perturbations_from_GEO_up",
+    "description": "Disease Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Disease_Signatures_from_GEO_down_2014",
+    "description": "Disease Signatures from GEO down (version 2014) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Disease_Signatures_from_GEO_up_2014",
+    "description": "Disease Signatures from GEO up (version 2014) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "DrugMatrix",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_2014",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_down",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_up",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_Histone_Modifications_2013",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_Histone_Modifications_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_TF_ChIP-seq_2014",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_TF_ChIP-seq_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ESCAPE",
+    "description": "ESCAPE gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Elsevier_Pathway_Collection",
+    "description": "Pathway gene set library for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Libraries_Most_Popular_Genes",
+    "description": "Enrichr Libraries Most Popular Genes gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Submissions_TF-Gene_Coocurrence",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Users_Contributed_Lists_2020",
+    "description": "Enrichr Users Contributed Lists (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Epigenomics_Roadmap_HM_ChIP-seq",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "FANTOM6_lncRNA_KD_DEGs",
+    "description": "FANTOM6 lncRNA KD DEGs gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2021",
+    "description": "Gene Ontology: Biological Process gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2023",
+    "description": "Gene Ontology: Biological Process gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2025",
+    "description": "Gene Ontology: Biological Process gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2021",
+    "description": "Gene Ontology: Cellular Component gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2023",
+    "description": "Gene Ontology: Cellular Component gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2025",
+    "description": "Gene Ontology: Cellular Component gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2021",
+    "description": "Gene Ontology: Molecular Function gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2023",
+    "description": "Gene Ontology: Molecular Function gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2025",
+    "description": "Gene Ontology: Molecular Function gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Aging_Signatures_2021",
+    "description": "GTEx Aging Signatures (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissue_Expression_Down",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissue_Expression_Up",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissues_V8_2023",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2019",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2023",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2025",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GeDiPNet_2023",
+    "description": "GeDiPNet (version 2023) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GeneSigDB",
+    "description": "GeneSigDB gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Gene_Perturbations_from_GEO_down",
+    "description": "Gene Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Gene_Perturbations_from_GEO_up",
+    "description": "Gene Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Genes_Associated_with_NIH_Grants",
+    "description": "Genes Associated with NIH Grants gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Genome_Browser_PWMs",
+    "description": "Motif/PWM-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "GlyGen_Glycosylated_Proteins_2022",
+    "description": "GlyGen Glycosylated Proteins (version 2022) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HDSigDB_Human_2021",
+    "description": "HDSigDB Human (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HDSigDB_Mouse_2021",
+    "description": "HDSigDB Mouse (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HMDB_Metabolites",
+    "description": "HMDB Metabolites gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HMS_LINCS_KinomeScan",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HomoloGene",
+    "description": "HomoloGene gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HuBMAP_ASCT_plus_B_augmented_w_RNAseq_Coexpression",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HuBMAP_ASCTplusB_augmented_2022",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HumanCyc_2015",
+    "description": "HumanCyc (version 2015) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "HumanCyc_2016",
+    "description": "HumanCyc (version 2016) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Human_Gene_Atlas",
+    "description": "Human Gene Atlas gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Human_Phenotype_Ontology",
+    "description": "Human Phenotype Ontology gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "IDG_Drug_Targets_2022",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "JASPAR_PWM_Human_2025",
+    "description": "Motif/PWM-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "JASPAR_PWM_Mouse_2025",
+    "description": "Motif/PWM-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Jensen_COMPARTMENTS",
+    "description": "Jensen COMPARTMENTS gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES",
+    "description": "Jensen DISEASES gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES_Curated_2025",
+    "description": "Jensen DISEASES Curated (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES_Experimental_2025",
+    "description": "Jensen DISEASES Experimental (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Jensen_TISSUES",
+    "description": "Jensen TISSUES gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEA_2013",
+    "description": "KEA (version 2013) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEA_2015",
+    "description": "KEA (version 2015) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2013",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2015",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2016",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019_Human",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019_Mouse",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2021_Human",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2026",
+    "description": "KEGG pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "KOMP2_Mouse_Phenotypes_2022",
+    "description": "KOMP2 Mouse Phenotypes (version 2022) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Kinase_Perturbations_from_GEO_down",
+    "description": "Kinase Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Kinase_Perturbations_from_GEO_up",
+    "description": "Kinase Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "L1000_Kinase_and_GPCR_Perturbations_down",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "L1000_Kinase_and_GPCR_Perturbations_up",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_CRISPR_KO_Consensus_Sigs",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_Consensus_Sigs",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_down",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_up",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Ligand_Perturbations_down",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Ligand_Perturbations_up",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Ligand_Perturbations_from_GEO_down",
+    "description": "Ligand Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Ligand_Perturbations_from_GEO_up",
+    "description": "Ligand Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MAGMA_Drugs_and_Diseases",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MAGNET_2023",
+    "description": "MAGNET (version 2023) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MCF7_Perturbations_from_GEO_down",
+    "description": "MCF7 Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MCF7_Perturbations_from_GEO_up",
+    "description": "MCF7 Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MGI_Mammalian_Phenotype_Level_4_2021",
+    "description": "MGI Mammalian Phenotype Level 4 (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MGI_Mammalian_Phenotype_Level_4_2024",
+    "description": "MGI Mammalian Phenotype Level 4 (version 2024) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Computational",
+    "description": "MSigDB Computational gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Hallmark_2020",
+    "description": "MSigDB Hallmark (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Oncogenic_Signatures",
+    "description": "MSigDB Oncogenic Signatures gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Metabolomics_Workbench_Metabolites_2022",
+    "description": "Metabolomics Workbench Metabolites (version 2022) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Microbe_Perturbations_from_GEO_down",
+    "description": "Microbe Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Microbe_Perturbations_from_GEO_up",
+    "description": "Microbe Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "MoTrPAC_2023",
+    "description": "MoTrPAC (version 2023) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Mouse_Gene_Atlas",
+    "description": "Mouse Gene Atlas gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "NCI-60_Cancer_Cell_Lines",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "NCI-Nature_2016",
+    "description": "NCI-Nature (version 2016) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "NIBR_DRUGseq_2025_down",
+    "description": "NIBR DRUGseq 2025 down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "NIBR_DRUGseq_2025_up",
+    "description": "NIBR DRUGseq 2025 up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "NURSA_Human_Endogenous_Complexome",
+    "description": "NURSA Human Endogenous Complexome gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "OMIM_Disease",
+    "description": "OMIM Disease gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "OMIM_Expanded",
+    "description": "OMIM Expanded gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Old_CMAP_down",
+    "description": "Old CMAP down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Old_CMAP_up",
+    "description": "Old CMAP up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Orphanet_Augmented_2021",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PFOCR_Pathways_2023",
+    "description": "Pathway gene set library for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PPI_Hub_Proteins",
+    "description": "PPI Hub Proteins gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PanglaoDB_Augmented_2021",
+    "description": "PanglaoDB Augmented (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Panther_2015",
+    "description": "Panther (version 2015) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Panther_2016",
+    "description": "Panther (version 2016) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PerturbAtlas",
+    "description": "PerturbAtlas gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PerturbAtlas_MouseGenePerturbationSigs",
+    "description": "PerturbAtlas MouseGenePerturbationSigs gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PerturbSeq_ReplogleK562",
+    "description": "PerturbSeq ReplogleK562 gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PerturbSeq_ReplogleRPE1",
+    "description": "PerturbSeq ReplogleRPE1 gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Pfam_InterPro_Domains",
+    "description": "Pfam InterPro Domains gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PheWeb_2019",
+    "description": "PheWeb (version 2019) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "PhenGenI_Association_2021",
+    "description": "PhenGenI Association (version 2021) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Phosphatase_Substrates_from_DEPOD",
+    "description": "Phosphatase Substrates from DEPOD gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ProteomicsDB_2020",
+    "description": "ProteomicsDB (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Proteomics_Drug_Atlas_2023",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "RNA-Seq_Disease_Gene_and_Drug_Signatures_from_GEO",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_AutoRIF_ARCHS4_Predictions",
+    "description": "Rare Diseases AutoRIF ARCHS4 Predictions gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_AutoRIF_Gene_Lists",
+    "description": "Rare Diseases AutoRIF Gene Lists gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_GeneRIF_ARCHS4_Predictions",
+    "description": "Rare Diseases GeneRIF ARCHS4 Predictions gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_GeneRIF_Gene_Lists",
+    "description": "Rare Diseases GeneRIF Gene Lists gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Reactome_2022",
+    "description": "Reactome pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Reactome_Pathways_2024",
+    "description": "Reactome pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "RummaGEO_DrugPerturbations_2025",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "RummaGEO_GenePerturbations_2025",
+    "description": "RummaGEO GenePerturbations (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_kinases",
+    "description": "Rummagene kinases gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_signatures",
+    "description": "Rummagene signatures gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_transcription_factors",
+    "description": "Rummagene transcription factors gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "SILAC_Phosphoproteomics",
+    "description": "SILAC Phosphoproteomics gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Sciplex_Drug_Perturbation_Signatures_2025",
+    "description": "Drug/perturbation signature gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "SubCell_BarCode",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "SynGO_2022",
+    "description": "SynGO (version 2022) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "SynGO_2024",
+    "description": "SynGO (version 2024) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "SysMyo_Muscle_Gene_Sets",
+    "description": "SysMyo Muscle Gene Sets gene sets for Human",
+    "species": "Human",
+    "organs": [
+      "muscle"
+    ]
+  },
+  {
+    "name": "TF-LOF_Expression_from_GEO",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TF_Perturbations_Followed_by_Expression",
+    "description": "Transcription factor / ChIP-seq related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TG_GATES_2020",
+    "description": "TG GATES (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TISSUES_Curated_2025",
+    "description": "TISSUES Curated (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TISSUES_Experimental_2025",
+    "description": "TISSUES Experimental (version 2025) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TRANSFAC_and_JASPAR_PWMs",
+    "description": "Motif/PWM-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TRRUST_Transcription_Factors_2019",
+    "description": "TRRUST Transcription Factors (version 2019) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Table_Mining_of_CRISPR_Studies",
+    "description": "Table Mining of CRISPR Studies gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Tabula_Muris",
+    "description": "Tabula Muris gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Tabula_Sapiens",
+    "description": "Tabula Sapiens gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TargetScan_microRNA",
+    "description": "TargetScan microRNA gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "TargetScan_microRNA_2017",
+    "description": "TargetScan microRNA (version 2017) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "The_Kinase_Library_2023",
+    "description": "The Kinase Library (version 2023) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "The_Kinase_Library_2024",
+    "description": "The Kinase Library (version 2024) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Tissue_Protein_Expression_from_Human_Proteome_Map",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Tissue_Protein_Expression_from_ProteomicsDB",
+    "description": "Cell type / tissue-related gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Transcription_Factor_PPIs",
+    "description": "Transcription Factor PPIs gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "UK_Biobank_GWAS_v1",
+    "description": "Disease/variant association gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Virus-Host_PPI_P-HIPSTer_2020",
+    "description": "Virus-Host PPI P-HIPSTer (version 2020) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "VirusMINT",
+    "description": "VirusMINT gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Virus_Perturbations_from_GEO_down",
+    "description": "Virus Perturbations from GEO down gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "Virus_Perturbations_from_GEO_up",
+    "description": "Virus Perturbations from GEO up gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathway_2021_Human",
+    "description": "Pathway gene set library for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathway_2023_Human",
+    "description": "Pathway gene set library for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2013",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2015",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2016",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2019_Human",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2019_Mouse",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2024_Human",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2024_Mouse",
+    "description": "WikiPathways pathway gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "dbGaP",
+    "description": "dbGaP gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "huMAP",
+    "description": "huMAP gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "lncHUB_lncRNA_Co-Expression",
+    "description": "lncHUB lncRNA Co-Expression gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "miRTarBase_2017",
+    "description": "miRTarBase (version 2017) gene sets for Human",
+    "species": "Human",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_Cell-lines",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_IDG_Coexp",
+    "description": "ARCHS4 IDG Coexp gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_Kinases_Coexp",
+    "description": "ARCHS4 Kinases Coexp gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_TFs_Coexp",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ARCHS4_Tissues",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Achilles_fitness_decrease",
+    "description": "Achilles fitness decrease gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Achilles_fitness_increase",
+    "description": "Achilles fitness increase gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Aging_Perturbations_from_GEO_down",
+    "description": "Aging Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Aging_Perturbations_from_GEO_up",
+    "description": "Aging Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Allen_Brain_Atlas_10x_scRNA_2021",
+    "description": "Allen Brain Atlas 10x scRNA (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Allen_Brain_Atlas_down",
+    "description": "Allen Brain Atlas down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Allen_Brain_Atlas_up",
+    "description": "Allen Brain Atlas up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": [
+      "brain"
+    ]
+  },
+  {
+    "name": "Azimuth_2023",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Azimuth_Cell_Types_2021",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2013",
+    "description": "BioCarta pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2015",
+    "description": "BioCarta pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "BioCarta_2016",
+    "description": "BioCarta pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "BioPlanet_2019",
+    "description": "BioPlanet (version 2019) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "BioPlex_2017",
+    "description": "BioPlex (version 2017) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "CCLE_Proteomics_2020",
+    "description": "CCLE Proteomics (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "CM4AI_U2OS_Protein_Localization_Assemblies",
+    "description": "CM4AI U2OS Protein Localization Assemblies gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "COMPARTMENTS_Curated_2025",
+    "description": "COMPARTMENTS Curated (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "COMPARTMENTS_Experimental_2025",
+    "description": "COMPARTMENTS Experimental (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "CORUM",
+    "description": "CORUM gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "COVID-19_Related_Gene_Sets",
+    "description": "COVID-19 Related Gene Sets gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "COVID-19_Related_Gene_Sets_2021",
+    "description": "COVID-19 Related Gene Sets (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Cancer_Cell_Line_Encyclopedia",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Carcinogenome",
+    "description": "Carcinogenome gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "CellMarker_2024",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "CellMarker_Augmented_2021",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2013",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2016",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ChEA_2022",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Chromosome_Location",
+    "description": "Chromosome Location gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Chromosome_Location_hg19",
+    "description": "Chromosome Location hg19 gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ClinVar_2019",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ClinVar_2025",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DGIdb_Drug_Targets_2024",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DSigDB",
+    "description": "DSigDB gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Data_Acquisition_Method_Most_Popular_Genes",
+    "description": "Data Acquisition Method Most Popular Genes gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DepMap_CRISPR_GeneDependency_CellLines_2023",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DepMap_WG_CRISPR_Screens_Broad_CellLines_2019",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DepMap_WG_CRISPR_Screens_Sanger_CellLines_2019",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Descartes_Cell_Types_and_Tissue_2021",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Diabetes_Perturbations_GEO_2022",
+    "description": "Diabetes Perturbations GEO (version 2022) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DisGeNET",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Disease_Perturbations_from_GEO_down",
+    "description": "Disease Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Disease_Perturbations_from_GEO_up",
+    "description": "Disease Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Disease_Signatures_from_GEO_down_2014",
+    "description": "Disease Signatures from GEO down (version 2014) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Disease_Signatures_from_GEO_up_2014",
+    "description": "Disease Signatures from GEO up (version 2014) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "DrugMatrix",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_2014",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_down",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Drug_Perturbations_from_GEO_up",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_Histone_Modifications_2013",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_Histone_Modifications_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_TF_ChIP-seq_2014",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_TF_ChIP-seq_2015",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ENCODE_and_ChEA_Consensus_TFs_from_ChIP-X",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ESCAPE",
+    "description": "ESCAPE gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Elsevier_Pathway_Collection",
+    "description": "Pathway gene set library for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Libraries_Most_Popular_Genes",
+    "description": "Enrichr Libraries Most Popular Genes gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Submissions_TF-Gene_Coocurrence",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Enrichr_Users_Contributed_Lists_2020",
+    "description": "Enrichr Users Contributed Lists (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Epigenomics_Roadmap_HM_ChIP-seq",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "FANTOM6_lncRNA_KD_DEGs",
+    "description": "FANTOM6 lncRNA KD DEGs gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2021",
+    "description": "Gene Ontology: Biological Process gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2023",
+    "description": "Gene Ontology: Biological Process gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2025",
+    "description": "Gene Ontology: Biological Process gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2021",
+    "description": "Gene Ontology: Cellular Component gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2023",
+    "description": "Gene Ontology: Cellular Component gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2025",
+    "description": "Gene Ontology: Cellular Component gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2021",
+    "description": "Gene Ontology: Molecular Function gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2023",
+    "description": "Gene Ontology: Molecular Function gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2025",
+    "description": "Gene Ontology: Molecular Function gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Aging_Signatures_2021",
+    "description": "GTEx Aging Signatures (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissue_Expression_Down",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissue_Expression_Up",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GTEx_Tissues_V8_2023",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2019",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2023",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GWAS_Catalog_2025",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GeDiPNet_2023",
+    "description": "GeDiPNet (version 2023) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GeneSigDB",
+    "description": "GeneSigDB gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Gene_Perturbations_from_GEO_down",
+    "description": "Gene Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Gene_Perturbations_from_GEO_up",
+    "description": "Gene Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Genes_Associated_with_NIH_Grants",
+    "description": "Genes Associated with NIH Grants gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Genome_Browser_PWMs",
+    "description": "Motif/PWM-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "GlyGen_Glycosylated_Proteins_2022",
+    "description": "GlyGen Glycosylated Proteins (version 2022) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HDSigDB_Human_2021",
+    "description": "HDSigDB Human (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HDSigDB_Mouse_2021",
+    "description": "HDSigDB Mouse (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HMDB_Metabolites",
+    "description": "HMDB Metabolites gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HMS_LINCS_KinomeScan",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HomoloGene",
+    "description": "HomoloGene gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HuBMAP_ASCT_plus_B_augmented_w_RNAseq_Coexpression",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HuBMAP_ASCTplusB_augmented_2022",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HumanCyc_2015",
+    "description": "HumanCyc (version 2015) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "HumanCyc_2016",
+    "description": "HumanCyc (version 2016) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Human_Gene_Atlas",
+    "description": "Human Gene Atlas gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Human_Phenotype_Ontology",
+    "description": "Human Phenotype Ontology gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "IDG_Drug_Targets_2022",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "JASPAR_PWM_Human_2025",
+    "description": "Motif/PWM-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "JASPAR_PWM_Mouse_2025",
+    "description": "Motif/PWM-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Jensen_COMPARTMENTS",
+    "description": "Jensen COMPARTMENTS gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES",
+    "description": "Jensen DISEASES gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES_Curated_2025",
+    "description": "Jensen DISEASES Curated (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Jensen_DISEASES_Experimental_2025",
+    "description": "Jensen DISEASES Experimental (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Jensen_TISSUES",
+    "description": "Jensen TISSUES gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEA_2013",
+    "description": "KEA (version 2013) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEA_2015",
+    "description": "KEA (version 2015) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2013",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2015",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2016",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019_Human",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019_Mouse",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2021_Human",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2026",
+    "description": "KEGG pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "KOMP2_Mouse_Phenotypes_2022",
+    "description": "KOMP2 Mouse Phenotypes (version 2022) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Kinase_Perturbations_from_GEO_down",
+    "description": "Kinase Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Kinase_Perturbations_from_GEO_up",
+    "description": "Kinase Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "L1000_Kinase_and_GPCR_Perturbations_down",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "L1000_Kinase_and_GPCR_Perturbations_up",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_CRISPR_KO_Consensus_Sigs",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_Consensus_Sigs",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_down",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Chem_Pert_up",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Ligand_Perturbations_down",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "LINCS_L1000_Ligand_Perturbations_up",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Ligand_Perturbations_from_GEO_down",
+    "description": "Ligand Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Ligand_Perturbations_from_GEO_up",
+    "description": "Ligand Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MAGMA_Drugs_and_Diseases",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MAGNET_2023",
+    "description": "MAGNET (version 2023) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MCF7_Perturbations_from_GEO_down",
+    "description": "MCF7 Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MCF7_Perturbations_from_GEO_up",
+    "description": "MCF7 Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MGI_Mammalian_Phenotype_Level_4_2021",
+    "description": "MGI Mammalian Phenotype Level 4 (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MGI_Mammalian_Phenotype_Level_4_2024",
+    "description": "MGI Mammalian Phenotype Level 4 (version 2024) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Computational",
+    "description": "MSigDB Computational gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Hallmark_2020",
+    "description": "MSigDB Hallmark (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MSigDB_Oncogenic_Signatures",
+    "description": "MSigDB Oncogenic Signatures gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Metabolomics_Workbench_Metabolites_2022",
+    "description": "Metabolomics Workbench Metabolites (version 2022) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Microbe_Perturbations_from_GEO_down",
+    "description": "Microbe Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Microbe_Perturbations_from_GEO_up",
+    "description": "Microbe Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "MoTrPAC_2023",
+    "description": "MoTrPAC (version 2023) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Mouse_Gene_Atlas",
+    "description": "Mouse Gene Atlas gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "NCI-60_Cancer_Cell_Lines",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "NCI-Nature_2016",
+    "description": "NCI-Nature (version 2016) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "NIBR_DRUGseq_2025_down",
+    "description": "NIBR DRUGseq 2025 down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "NIBR_DRUGseq_2025_up",
+    "description": "NIBR DRUGseq 2025 up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "NURSA_Human_Endogenous_Complexome",
+    "description": "NURSA Human Endogenous Complexome gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "OMIM_Disease",
+    "description": "OMIM Disease gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "OMIM_Expanded",
+    "description": "OMIM Expanded gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Old_CMAP_down",
+    "description": "Old CMAP down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Old_CMAP_up",
+    "description": "Old CMAP up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Orphanet_Augmented_2021",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PFOCR_Pathways_2023",
+    "description": "Pathway gene set library for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PPI_Hub_Proteins",
+    "description": "PPI Hub Proteins gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PanglaoDB_Augmented_2021",
+    "description": "PanglaoDB Augmented (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Panther_2015",
+    "description": "Panther (version 2015) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Panther_2016",
+    "description": "Panther (version 2016) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PerturbAtlas",
+    "description": "PerturbAtlas gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PerturbAtlas_MouseGenePerturbationSigs",
+    "description": "PerturbAtlas MouseGenePerturbationSigs gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PerturbSeq_ReplogleK562",
+    "description": "PerturbSeq ReplogleK562 gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PerturbSeq_ReplogleRPE1",
+    "description": "PerturbSeq ReplogleRPE1 gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Pfam_InterPro_Domains",
+    "description": "Pfam InterPro Domains gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PheWeb_2019",
+    "description": "PheWeb (version 2019) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "PhenGenI_Association_2021",
+    "description": "PhenGenI Association (version 2021) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Phosphatase_Substrates_from_DEPOD",
+    "description": "Phosphatase Substrates from DEPOD gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "ProteomicsDB_2020",
+    "description": "ProteomicsDB (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Proteomics_Drug_Atlas_2023",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "RNA-Seq_Disease_Gene_and_Drug_Signatures_from_GEO",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_AutoRIF_ARCHS4_Predictions",
+    "description": "Rare Diseases AutoRIF ARCHS4 Predictions gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_AutoRIF_Gene_Lists",
+    "description": "Rare Diseases AutoRIF Gene Lists gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_GeneRIF_ARCHS4_Predictions",
+    "description": "Rare Diseases GeneRIF ARCHS4 Predictions gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rare_Diseases_GeneRIF_Gene_Lists",
+    "description": "Rare Diseases GeneRIF Gene Lists gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Reactome_2022",
+    "description": "Reactome pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Reactome_Pathways_2024",
+    "description": "Reactome pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "RummaGEO_DrugPerturbations_2025",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "RummaGEO_GenePerturbations_2025",
+    "description": "RummaGEO GenePerturbations (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_kinases",
+    "description": "Rummagene kinases gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_signatures",
+    "description": "Rummagene signatures gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Rummagene_transcription_factors",
+    "description": "Rummagene transcription factors gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "SILAC_Phosphoproteomics",
+    "description": "SILAC Phosphoproteomics gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Sciplex_Drug_Perturbation_Signatures_2025",
+    "description": "Drug/perturbation signature gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "SubCell_BarCode",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "SynGO_2022",
+    "description": "SynGO (version 2022) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "SynGO_2024",
+    "description": "SynGO (version 2024) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "SysMyo_Muscle_Gene_Sets",
+    "description": "SysMyo Muscle Gene Sets gene sets for Mouse",
+    "species": "Mouse",
+    "organs": [
+      "muscle"
+    ]
+  },
+  {
+    "name": "TF-LOF_Expression_from_GEO",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TF_Perturbations_Followed_by_Expression",
+    "description": "Transcription factor / ChIP-seq related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TG_GATES_2020",
+    "description": "TG GATES (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TISSUES_Curated_2025",
+    "description": "TISSUES Curated (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TISSUES_Experimental_2025",
+    "description": "TISSUES Experimental (version 2025) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TRANSFAC_and_JASPAR_PWMs",
+    "description": "Motif/PWM-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TRRUST_Transcription_Factors_2019",
+    "description": "TRRUST Transcription Factors (version 2019) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Table_Mining_of_CRISPR_Studies",
+    "description": "Table Mining of CRISPR Studies gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Tabula_Muris",
+    "description": "Tabula Muris gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Tabula_Sapiens",
+    "description": "Tabula Sapiens gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TargetScan_microRNA",
+    "description": "TargetScan microRNA gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "TargetScan_microRNA_2017",
+    "description": "TargetScan microRNA (version 2017) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "The_Kinase_Library_2023",
+    "description": "The Kinase Library (version 2023) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "The_Kinase_Library_2024",
+    "description": "The Kinase Library (version 2024) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Tissue_Protein_Expression_from_Human_Proteome_Map",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Tissue_Protein_Expression_from_ProteomicsDB",
+    "description": "Cell type / tissue-related gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Transcription_Factor_PPIs",
+    "description": "Transcription Factor PPIs gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "UK_Biobank_GWAS_v1",
+    "description": "Disease/variant association gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Virus-Host_PPI_P-HIPSTer_2020",
+    "description": "Virus-Host PPI P-HIPSTer (version 2020) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "VirusMINT",
+    "description": "VirusMINT gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Virus_Perturbations_from_GEO_down",
+    "description": "Virus Perturbations from GEO down gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Virus_Perturbations_from_GEO_up",
+    "description": "Virus Perturbations from GEO up gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathway_2021_Human",
+    "description": "Pathway gene set library for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathway_2023_Human",
+    "description": "Pathway gene set library for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2013",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2015",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2016",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2019_Human",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2019_Mouse",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2024_Human",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2024_Mouse",
+    "description": "WikiPathways pathway gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "dbGaP",
+    "description": "dbGaP gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "huMAP",
+    "description": "huMAP gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "lncHUB_lncRNA_Co-Expression",
+    "description": "lncHUB lncRNA Co-Expression gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "miRTarBase_2017",
+    "description": "miRTarBase (version 2017) gene sets for Mouse",
+    "species": "Mouse",
+    "organs": []
+  },
+  {
+    "name": "Cellular_Component_AutoRIF",
+    "description": "Cell type / tissue-related gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Cellular_Component_AutoRIF_Predicted_zscore",
+    "description": "Cell type / tissue-related gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2018",
+    "description": "Gene Ontology: Biological Process gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Biological Process gene sets for Yeast (predicted)",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2018",
+    "description": "Gene Ontology: Cellular Component gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Cellular Component gene sets for Yeast (predicted)",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2018",
+    "description": "Gene Ontology: Molecular Function gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Molecular Function gene sets for Yeast (predicted)",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Gene_Interaction_Hubs_BioGRID_2018",
+    "description": "Gene Interaction Hubs BioGRID (version 2018) gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2018",
+    "description": "KEGG pathway gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019",
+    "description": "KEGG pathway gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "PPI_Hubs_BioGRID_2018",
+    "description": "PPI Hubs BioGRID (version 2018) gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF",
+    "description": "Phenotype AutoRIF gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF_Predicted_zscore",
+    "description": "Phenotype AutoRIF Predicted zscore gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "TF2DNA_2018",
+    "description": "Transcription factor / ChIP-seq related gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2018",
+    "description": "WikiPathways pathway gene sets for Yeast",
+    "species": "Yeast",
+    "organs": []
+  },
+  {
+    "name": "Allele_LoF_Phenotypes_from_FlyBase_2017",
+    "description": "Allele LoF Phenotypes from FlyBase (version 2017) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Allele_Phenotypes_from_FlyBase_2017",
+    "description": "Allele Phenotypes from FlyBase (version 2017) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF",
+    "description": "Anatomy AutoRIF gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF_Predicted_zscore",
+    "description": "Anatomy AutoRIF Predicted zscore gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF",
+    "description": "Anatomy GeneRIF gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF_Predicted_zscore",
+    "description": "Anatomy GeneRIF Predicted zscore gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Biological_Process_2018",
+    "description": "Coexpression Predicted GO Biological Process (version 2018) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Cellular_Component_2018",
+    "description": "Cell type / tissue-related gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Molecular_Function_2018",
+    "description": "Coexpression Predicted GO Molecular Function (version 2018) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2018",
+    "description": "Gene Ontology: Biological Process gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Biological Process gene sets for Fly (predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Fly (GeneRIF-derived)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Biological Process gene sets for Fly (GeneRIF-derived, predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2018",
+    "description": "Gene Ontology: Cellular Component gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Cellular Component gene sets for Fly (predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Fly (GeneRIF-derived)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Cellular Component gene sets for Fly (GeneRIF-derived, predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2018",
+    "description": "Gene Ontology: Molecular Function gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Molecular Function gene sets for Fly (predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Fly (GeneRIF-derived)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Molecular Function gene sets for Fly (GeneRIF-derived, predicted)",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Human_Disease_from_FlyBase_2017",
+    "description": "Human Disease from FlyBase (version 2017) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019",
+    "description": "KEGG pathway gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "PPI_Network_Hubs_from_DroID_2017",
+    "description": "PPI Network Hubs from DroID (version 2017) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF",
+    "description": "Phenotype AutoRIF gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF_Predicted_zscore",
+    "description": "Phenotype AutoRIF Predicted zscore gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF",
+    "description": "Phenotype GeneRIF gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF_Predicted_zscore",
+    "description": "Phenotype GeneRIF Predicted zscore gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Putative_Regulatory_miRNAs_from_DroID_2015",
+    "description": "Putative Regulatory miRNAs from DroID (version 2015) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "RNAi_Screens_from_GenomeRNAi_2017",
+    "description": "RNAi Screens from GenomeRNAi (version 2017) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "TF2DNA_2018",
+    "description": "Transcription factor / ChIP-seq related gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Transcription_Factors_from_DroID_2015",
+    "description": "Transcription Factors from DroID (version 2015) gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2018",
+    "description": "WikiPathways pathway gene sets for Fly",
+    "species": "Fly",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF",
+    "description": "Anatomy AutoRIF gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF_Predicted_Z-score",
+    "description": "Anatomy AutoRIF Predicted Z-score gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF",
+    "description": "Anatomy GeneRIF gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF_Predicted_Z-score",
+    "description": "Anatomy GeneRIF Predicted Z-score gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Biological_Process_2018",
+    "description": "Coexpression Predicted GO Biological Process (version 2018) gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Cellular_Component_2018",
+    "description": "Cell type / tissue-related gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Molecular_Function_2018",
+    "description": "Coexpression Predicted GO Molecular Function (version 2018) gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2018",
+    "description": "Gene Ontology: Biological Process gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Biological Process gene sets for Fish (predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Fish (GeneRIF-derived)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Biological Process gene sets for Fish (GeneRIF-derived, predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2018",
+    "description": "Gene Ontology: Cellular Component gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Cellular Component gene sets for Fish (predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Fish (GeneRIF-derived)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Cellular Component gene sets for Fish (GeneRIF-derived, predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2018",
+    "description": "Gene Ontology: Molecular Function gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Molecular Function gene sets for Fish (predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Fish (GeneRIF-derived)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF_Predicted_Z-score",
+    "description": "Gene Ontology: Molecular Function gene sets for Fish (GeneRIF-derived, predicted, Z-score ranked)",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019",
+    "description": "KEGG pathway gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF",
+    "description": "Phenotype AutoRIF gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF_Predicted_Z-score",
+    "description": "Phenotype AutoRIF Predicted Z-score gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF",
+    "description": "Phenotype GeneRIF gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF_Predicted_Z-score",
+    "description": "Phenotype GeneRIF Predicted Z-score gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2018",
+    "description": "WikiPathways pathway gene sets for Fish",
+    "species": "Fish",
+    "organs": []
+  },
+  {
+    "name": "Anatomic_Associations_WormBase_2018",
+    "description": "Anatomic Associations WormBase (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF",
+    "description": "Anatomy AutoRIF gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_AutoRIF_Predicted_zscore",
+    "description": "Anatomy AutoRIF Predicted zscore gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF",
+    "description": "Anatomy GeneRIF gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Anatomy_GeneRIF_Predicted_zscore",
+    "description": "Anatomy GeneRIF Predicted zscore gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Biological_Process_2018",
+    "description": "Coexpression Predicted GO Biological Process (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Cellular_Component_2018",
+    "description": "Cell type / tissue-related gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Coexpression_Predicted_GO_Molecular_Function_2018",
+    "description": "Coexpression Predicted GO Molecular Function (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_2018",
+    "description": "Gene Ontology: Biological Process gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Biological Process gene sets for Worm (predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF",
+    "description": "Gene Ontology: Biological Process gene sets for Worm (GeneRIF-derived)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Biological_Process_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Biological Process gene sets for Worm (GeneRIF-derived, predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_2018",
+    "description": "Gene Ontology: Cellular Component gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Cellular Component gene sets for Worm (predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF",
+    "description": "Gene Ontology: Cellular Component gene sets for Worm (GeneRIF-derived)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Cellular_Component_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Cellular Component gene sets for Worm (GeneRIF-derived, predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_2018",
+    "description": "Gene Ontology: Molecular Function gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_AutoRIF_Predicted_zscore",
+    "description": "Gene Ontology: Molecular Function gene sets for Worm (predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF",
+    "description": "Gene Ontology: Molecular Function gene sets for Worm (GeneRIF-derived)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "GO_Molecular_Function_GeneRIF_Predicted_zscore",
+    "description": "Gene Ontology: Molecular Function gene sets for Worm (GeneRIF-derived, predicted)",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Gene_Interaction_Hubs_BioGRID_2018",
+    "description": "Gene Interaction Hubs BioGRID (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Human_Diseases_from_WormBase_2018",
+    "description": "Human Diseases from WormBase (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "InterPro_Domains_2019",
+    "description": "InterPro Domains (version 2019) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "KEGG_2019",
+    "description": "KEGG pathway gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "PPI_Hubs_BioGRID_2018",
+    "description": "PPI Hubs BioGRID (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Pfam_Domains_2019",
+    "description": "Pfam Domains (version 2019) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF",
+    "description": "Phenotype AutoRIF gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_AutoRIF_Predicted_zscore",
+    "description": "Phenotype AutoRIF Predicted zscore gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF",
+    "description": "Phenotype GeneRIF gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Phenotype_GeneRIF_Predicted_zscore",
+    "description": "Phenotype GeneRIF Predicted zscore gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "Phenotypes_WormBase_2018",
+    "description": "Phenotypes WormBase (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "RNAi_Phenotypes_WormBase_2018",
+    "description": "RNAi Phenotypes WormBase (version 2018) gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "TF2DNA_2018",
+    "description": "Transcription factor / ChIP-seq related gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  },
+  {
+    "name": "WikiPathways_2018",
+    "description": "WikiPathways pathway gene sets for Worm",
+    "species": "Worm",
+    "organs": []
+  }
+]

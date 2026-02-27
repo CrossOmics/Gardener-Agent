@@ -1,0 +1,15 @@
+.session-toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.session-select {
+  flex: 1;
+  min-width: 0;
+}
+
+.session-action-btn {
+  flex: 0 0 auto;
+}

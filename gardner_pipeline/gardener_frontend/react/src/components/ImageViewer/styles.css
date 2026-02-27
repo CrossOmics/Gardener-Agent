@@ -1,0 +1,119 @@
+.pdf-viewer-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #fff;
+  height: 100%;
+  min-height: 0;
+}
+
+.pdf-image-area {
+  flex: 0 0 50%;
+  height: 50%;
+  background: #fafafa;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.pdf-panel-resizer {
+  height: 6px;
+  cursor: row-resize;
+  background: #f0f0f0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pdf-panel-resizer:hover {
+  background: #e6e6e6;
+}
+
+.pdf-bottom-area {
+  flex: 0 0 50%;
+  height: 50%;
+  border-top: 1px solid #e8e8e8;
+  background: #fff;
+  overflow: auto;
+  padding: 10px 12px;
+  min-height: 0;
+}
+
+.pdf-viewer-container.panel-resizing,
+.pdf-viewer-container.panel-resizing * {
+  cursor: row-resize !important;
+  user-select: none;
+}
+
+.image-loading-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+}
+
+.pdf-image {
+  user-select: none;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+  transform-origin: center center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  image-rendering: auto;
+}
+
+.pdf-viewer-empty {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snapshot-panel-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+}
+
+.snapshot-tab-text {
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.75);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.snapshot-tab-pre {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.78);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.lineage-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lineage-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 72px;
+}
+
+.lineage-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

@@ -1,0 +1,63 @@
+.chat-md {
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.chat-md p,
+.chat-md ul,
+.chat-md ol,
+.chat-md blockquote,
+.chat-md pre,
+.chat-md h1,
+.chat-md h2,
+.chat-md h3,
+.chat-md h4,
+.chat-md h5,
+.chat-md h6 {
+  margin: 0 0 8px;
+}
+
+.chat-md code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+.chat-md-pre {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.chat-md-pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.chat-md-quote {
+  border-left: 3px solid rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.chat-md-ul,
+.chat-md-ol {
+  padding-left: 18px;
+}
+
+.chat-md-h1,
+.chat-md-h2,
+.chat-md-h3,
+.chat-md-h4,
+.chat-md-h5,
+.chat-md-h6 {
+  font-weight: 600;
+}
+
+.chat-md a {
+  color: #1677ff;
+  text-decoration: underline;
+}

@@ -1,0 +1,3 @@
+# Keep the release folder itself, but ignore generated artifacts inside it.
+electron/release/*
+!electron/release/.gitkeep

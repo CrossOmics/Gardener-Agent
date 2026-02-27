@@ -1,0 +1,75 @@
+﻿.folder-summary-container {
+  flex: 1;
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+
+/* Hide scrollbar but keep functionality */
+.folder-summary-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.folder-summary-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.folder-summary-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.folder-summary-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.folder-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.folder-summary-icon {
+  font-size: 28px;
+  color: #1890ff;
+}
+
+.folder-summary-title {
+  margin: 0 !important;
+  font-weight: 600;
+}
+
+.folder-summary-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.folder-summary-content {
+  margin-bottom: 32px;
+}
+
+.folder-summary-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.folder-summary-keywords {
+  margin-bottom: 32px;
+}
+
+.keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.keyword-tag {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 13px;
+}
+

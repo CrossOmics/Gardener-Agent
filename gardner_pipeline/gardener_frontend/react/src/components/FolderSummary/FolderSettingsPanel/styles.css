@@ -1,0 +1,91 @@
+.folder-settings-panel {
+  margin-bottom: 8px;
+}
+
+.folder-settings-panel .ant-collapse-header {
+  padding: 12px 0 !important;
+}
+
+.folder-settings-collapse-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.folder-settings-form {
+  padding: 16px 0;
+  --analysis-control-width: 300px;
+}
+
+.folder-settings-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.folder-settings-form .ant-form-item-label > label {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 13px;
+}
+
+.folder-settings-form .settings-input,
+.folder-settings-form .ant-form-item .ant-select,
+.folder-settings-form .ant-input,
+.folder-settings-form .ant-input-number,
+.folder-settings-form .ant-input-textarea {
+  width: var(--analysis-control-width);
+}
+
+.snapshot-readonly .ant-input[disabled],
+.snapshot-readonly .ant-input-number-disabled,
+.snapshot-readonly .ant-input-textarea textarea[disabled] {
+  color: rgba(0, 0, 0, 0.88);
+  background: #fff;
+}
+
+.snapshot-loading-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.folder-settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.annotation-embedded-container {
+  margin: -8px 0;
+}
+
+.annotation-embedded-container .annotation-container.embedded {
+  min-height: 300px;
+}
+
+.annotation-table-title {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.annotation-inline-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.annotation-inline-row .annotation-voting-item {
+  flex: 0 0 auto;
+}
+
+.annotation-inline-row .annotation-topn-item {
+  flex: 0 0 var(--analysis-control-width);
+}
+
+.annotation-inline-row .annotation-topn-item .ant-input-number {
+  width: 100%;
+}

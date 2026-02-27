@@ -1,0 +1,28 @@
+{
+  "appId": "com.lotus.bioagent",
+  "productName": "Lotus Biological Agent",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json"
+  ],
+  "extraResources": [
+    {
+      "from": "../react/dist",
+      "to": "react/dist"
+    },
+    {
+      "from": "release/LotusBackend.app",
+      "to": "services/backend/LotusBackend.app"
+    },
+    {
+      "from": "release/LotusAgent.app",
+      "to": "services/agent/LotusAgent.app"
+    }
+  ],
+  "mac": {
+    "target": "dmg"
+  }
+}

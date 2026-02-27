@@ -1,0 +1,4 @@
+PREPROCESSING_BRANCH = "Preprocessing"
+CLUSTERING_BRANCH = "Clustering"
+DGE_BRANCH = "DGE"
+ANNOTATION_BRANCH = "Annotation"

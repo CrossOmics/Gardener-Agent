@@ -1,0 +1,44 @@
+.settings-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.settings-content {
+  flex: 1;
+  overflow: auto;
+  padding: 16px 24px;
+}
+
+.settings-form {
+  max-width: 500px;
+}
+
+.label-with-tooltip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tooltip-icon {
+  color: rgba(0, 0, 0, 0.45);
+  cursor: help;
+}
+
+.full-width-input {
+  width: 100%;
+}

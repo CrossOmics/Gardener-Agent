@@ -1,0 +1,50 @@
+.project-summary-container {
+  flex: 1;
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+
+/* Hide scrollbar but keep functionality */
+.project-summary-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.project-summary-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.project-summary-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.project-summary-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.project-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.project-summary-icon {
+  font-size: 28px;
+  color: #722ed1;
+}
+
+.project-summary-title {
+  margin: 0 !important;
+  font-weight: 600;
+}
+
+.project-summary-section {
+  margin-bottom: 24px;
+}
+
+.project-summary-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.75);
+}

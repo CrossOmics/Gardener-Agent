@@ -1,0 +1,61 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "electron .",
+    "start": "npm run build && electron .",
+    "build:react": "npm --prefix ../react run build:pack",
+    "build:all": "npm run build:react && npm run build",
+    "dist:win": "npm run build:all && electron-builder --win nsis",
+    "dist:mac": "npm run build:all && electron-builder --mac dmg --config electron-builder.mac.json",
+    "dist:mac:arm64": "npm run build:all && electron-builder --mac dmg --arm64 --config electron-builder.mac.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "electron-builder": "^26.0.12",
+    "electron": "^40.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "build": {
+    "appId": "com.lotus.bioagent",
+    "productName": "Lotus Biological Agent",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../react/dist",
+        "to": "react/dist"
+      },
+      {
+        "from": "release/lotus-backend.exe",
+        "to": "services/backend/lotus-backend.exe"
+      },
+      {
+        "from": "release/lotus-agent.exe",
+        "to": "services/agent/lotus-agent.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

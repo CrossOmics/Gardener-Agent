@@ -1,0 +1,242 @@
+[
+  {
+    "model": "Immune_All_Low.pkl",
+    "description": "immune sub-populations combined from 20 tissues of 18 studies"
+  },
+  {
+    "model": "Immune_All_High.pkl",
+    "description": "immune populations combined from 20 tissues of 18 studies"
+  },
+  {
+    "model": "Adult_COVID19_PBMC.pkl",
+    "description": "peripheral blood mononuclear cell types from COVID-19 patients and healthy controls"
+  },
+  {
+    "model": "Adult_CynomolgusMacaque_Hippocampus.pkl",
+    "description": "cell types from the hippocampus of adult cynomolgus monkeys (Macaca fascicularis)"
+  },
+  {
+    "model": "Adult_Human_MTG.pkl",
+    "description": "cell types and subtypes (10x-based) from the adult human middle temporal gyrus"
+  },
+  {
+    "model": "Adult_Human_PancreaticIslet.pkl",
+    "description": "cell types from pancreatic islets of healthy adult humans"
+  },
+  {
+    "model": "Adult_Human_PrefrontalCortex.pkl",
+    "description": "cell types and subtypes from the adult human dorsolateral prefrontal cortex"
+  },
+  {
+    "model": "Adult_Human_Skin.pkl",
+    "description": "cell types from human healthy adult skin"
+  },
+  {
+    "model": "Adult_Human_Vascular.pkl",
+    "description": "vascular populations combined from multiple adult human organs"
+  },
+  {
+    "model": "Adult_Mouse_Gut.pkl",
+    "description": "cell types in the adult mouse gut combined from eight datasets"
+  },
+  {
+    "model": "Adult_Mouse_OlfactoryBulb.pkl",
+    "description": "cell types from the olfactory bulb of adult mice"
+  },
+  {
+    "model": "Adult_Pig_Hippocampus.pkl",
+    "description": "cell types from the adult pig hippocampus"
+  },
+  {
+    "model": "Adult_RhesusMacaque_Hippocampus.pkl",
+    "description": "cell types from the hippocampus of adult rhesus monkeys (Macaca mulatta)"
+  },
+  {
+    "model": "Adult_cHSPCs_Illumina.pkl",
+    "description": "human circulating hematopoietic stem and progenitor cell types in aging, cytopenia, and myelodysplastic syndrome (Illumina)"
+  },
+  {
+    "model": "Adult_cHSPCs_Ultima.pkl",
+    "description": "human circulating hematopoietic stem and progenitor cell types in aging, cytopenia, and myelodysplastic syndrome (Ultima)"
+  },
+  {
+    "model": "Autopsy_COVID19_Lung.pkl",
+    "description": "cell types from the lungs of 16 SARS-CoV-2 infected COVID-19 autopsy adult donors"
+  },
+  {
+    "model": "COVID19_HumanChallenge_Blood.pkl",
+    "description": "detailed blood cell states from 16 individuals after being challenged with SARS-CoV-2"
+  },
+  {
+    "model": "COVID19_Immune_Landscape.pkl",
+    "description": "immune subtypes from lung and blood of COVID-19 patients and healthy controls"
+  },
+  {
+    "model": "Cells_Adult_Breast.pkl",
+    "description": "cell types from the adult human breast"
+  },
+  {
+    "model": "Cells_Fetal_Lung.pkl",
+    "description": "cell types from human embryonic and fetal lungs"
+  },
+  {
+    "model": "Cells_Human_Tonsil.pkl",
+    "description": "tonsillar cell types from humans (3-65 years)"
+  },
+  {
+    "model": "Cells_Intestinal_Tract.pkl",
+    "description": "intestinal cells from fetal, pediatric (healthy and Crohn's disease) and adult human gut"
+  },
+  {
+    "model": "Cells_Lung_Airway.pkl",
+    "description": "cell populations from scRNA-seq of five locations of the human lungs and airways"
+  },
+  {
+    "model": "Developing_Human_Brain.pkl",
+    "description": "cell types from the first-trimester developing human brain"
+  },
+  {
+    "model": "Developing_Human_Gonads.pkl",
+    "description": "cell types of human gonadal and adjacent extragonadal tissue from the first and second trimesters of gestation"
+  },
+  {
+    "model": "Developing_Human_Hippocampus.pkl",
+    "description": "cell types from the developing human hippocampus"
+  },
+  {
+    "model": "Developing_Human_Organs.pkl",
+    "description": "cell types of five endoderm-derived organs in developing humans from 7–21 post-conception weeks"
+  },
+  {
+    "model": "Developing_Human_Thymus.pkl",
+    "description": "cell populations in embryonic, fetal, pediatric, and adult stages of the human thymus"
+  },
+  {
+    "model": "Developing_Mouse_Brain.pkl",
+    "description": "cell types from the embryonic mouse brain between gastrulation and birth"
+  },
+  {
+    "model": "Developing_Mouse_Hippocampus.pkl",
+    "description": "cell types from the mouse hippocampus at postnatal day 7"
+  },
+  {
+    "model": "Fetal_Human_AdrenalGlands.pkl",
+    "description": "cell types of human fetal adrenal glands from 8 to 14 post-conceptional weeks"
+  },
+  {
+    "model": "Fetal_Human_Pancreas.pkl",
+    "description": "pancreatic cell types from human embryos at 9-19 weeks post conception"
+  },
+  {
+    "model": "Fetal_Human_Pituitary.pkl",
+    "description": "cell types of human fetal pituitaries from 7 to 25 weeks postfertilization"
+  },
+  {
+    "model": "Fetal_Human_Retina.pkl",
+    "description": "cell types from human fetal neural retina and retinal pigment epithelium"
+  },
+  {
+    "model": "Fetal_Human_Skin.pkl",
+    "description": "cell types from developing human fetal skin"
+  },
+  {
+    "model": "Healthy_Adult_Heart.pkl",
+    "description": "cell types from eight anatomical regions of the healthy adult human heart"
+  },
+  {
+    "model": "Healthy_COVID19_PBMC.pkl",
+    "description": "peripheral blood mononuclear cell types from healthy and COVID-19 individuals"
+  },
+  {
+    "model": "Healthy_Human_Liver.pkl",
+    "description": "cell types from scRNA-seq and snRNA-seq of the adult human liver"
+  },
+  {
+    "model": "Healthy_Mouse_Liver.pkl",
+    "description": "cell types from scRNA-seq and snRNA-seq of the healthy murine liver"
+  },
+  {
+    "model": "Human_AdultAged_Hippocampus.pkl",
+    "description": "cell types from the hippocampus of adult and aged humans"
+  },
+  {
+    "model": "Human_Colorectal_Cancer.pkl",
+    "description": "cell types of colon tissues from patients with colorectal cancer"
+  },
+  {
+    "model": "Human_Developmental_Retina.pkl",
+    "description": "cell types from human fetal retina"
+  },
+  {
+    "model": "Human_Embryonic_YolkSac.pkl",
+    "description": "cell types of the human yolk sac from 4-8 post-conception weeks"
+  },
+  {
+    "model": "Human_Endometrium_Atlas.pkl",
+    "description": "endometrial cell types integrated from seven datasets across the menstrual cycle"
+  },
+  {
+    "model": "Human_IPF_Lung.pkl",
+    "description": "cell types from idiopathic pulmonary fibrosis, chronic obstructive pulmonary disease, and healthy lungs of adult humans"
+  },
+  {
+    "model": "Human_Longitudinal_Hippocampus.pkl",
+    "description": "cell types from the adult human anterior and posterior hippocampus"
+  },
+  {
+    "model": "Human_Lung_Atlas.pkl",
+    "description": "integrated Human Lung Cell Atlas (HLCA) combining multiple datasets of the healthy respiratory system"
+  },
+  {
+    "model": "Human_PF_Lung.pkl",
+    "description": "cell types from different forms of pulmonary fibrosis lungs of adult humans"
+  },
+  {
+    "model": "Human_Placenta_Decidua.pkl",
+    "description": "cell types from first-trimester human placentas with matched maternal blood and decidua"
+  },
+  {
+    "model": "Lethal_COVID19_Lung.pkl",
+    "description": "cell types from the lungs of individuals who died of COVID-19 and control individuals"
+  },
+  {
+    "model": "Mouse_Dendritic_Subtypes.pkl",
+    "description": "dendritic cell subtypes integrated from 9 datasets across murine spleen, bone marrow, blood, and lung tissue"
+  },
+  {
+    "model": "Mouse_Dentate_Gyrus.pkl",
+    "description": "cell types from the dentate gyrus in perinatal, juvenile, and adult mice"
+  },
+  {
+    "model": "Mouse_Isocortex_Hippocampus.pkl",
+    "description": "cell types from the adult mouse isocortex (neocortex) and hippocampal formation"
+  },
+  {
+    "model": "Mouse_Postnatal_DentateGyrus.pkl",
+    "description": "cell types from the mouse dentate gyrus in postnatal days 12-35"
+  },
+  {
+    "model": "Mouse_Whole_Brain.pkl",
+    "description": "cell types from the whole adult mouse brain"
+  },
+  {
+    "model": "Nuclei_Human_InnerEar.pkl",
+    "description": "cell types from human inner ear at fetal age weeks 7.5 and 9.2 as well as adult"
+  },
+  {
+    "model": "Nuclei_Lung_Airway.pkl",
+    "description": "cell populations from snRNA-seq of five locations of the human lungs and airways"
+  },
+  {
+    "model": "PaediatricAdult_COVID19_Airway.pkl",
+    "description": "cell types in the airway of paediatric and adult patients with COVID-19 and healthy controls"
+  },
+  {
+    "model": "PaediatricAdult_COVID19_PBMC.pkl",
+    "description": "peripheral blood mononuclear cell types of paediatric and adult patients with COVID-19 and healthy controls"
+  },
+  {
+    "model": "Pan_Fetal_Human.pkl",
+    "description": "stromal and immune populations from the human fetus"
+  }
+]

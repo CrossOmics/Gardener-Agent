@@ -1,0 +1,50 @@
+.dataset-stage-runner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataset-stage-runner-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fafafa;
+}
+
+.dataset-stage-runner-title h3 {
+  margin-bottom: 2px;
+}
+
+.dataset-stage-runner-title {
+  flex: 1;
+}
+
+.dataset-stage-runner-actions {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.dataset-stage-runner-actions .run-btn {
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.dataset-stage-runner-actions .run-stage-btn {
+  background: #f0f0f0;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.dataset-stage-runner-actions .run-stage-btn:hover {
+  background: #e6e6e6;
+  border-color: #cfcfcf;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.dataset-stage-runner-body {
+  flex: 1;
+  overflow: auto;
+  padding: 16px 20px;
+}
