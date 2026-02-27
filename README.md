@@ -1,8 +1,8 @@
 <div align="center">
-  <table style="border: none; margin: 0 auto;">
+  <table border="0" cellspacing="0" cellpadding="0" style="border: 0 !important; border-collapse: collapse; margin: 0 auto; outline: none;">
     <tr>
-      <td style="vertical-align: middle; border: none; padding: 0;"><img src="util/logo.png" width="72" alt="Gardener Logo"></td>
-      <td style="vertical-align: middle; border: none; padding: 0 0 0 12px;"><h1 style="margin: 0;">Gardener Biological Agent</h1></td>
+      <td style="vertical-align: middle; border: 0 !important; padding: 0;"><img src="util/logo.png" width="72" alt="Gardener Logo"></td>
+      <td style="vertical-align: middle; border: 0 !important; padding: 0 0 0 12px;"><h1 style="margin: 0;">Gardener Biological Agent</h1></td>
     </tr>
   </table>
 </div>
