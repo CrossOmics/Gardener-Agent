@@ -12,8 +12,8 @@
 
 **News:** *Gardener Biological Agent Beta 1.0.0* is here. We plan to move this to HPC node. Try it and tell us what you think!
 
-Installable packages are available in the **Release section** — you can download and run the system directly.
-### [Installable Package 1.0.0](https://github.com/CrossOmics/Gardener-Agent/releases/tag/1.0.0)
+Installable packages are available in the [**Release section**](https://github.com/CrossOmics/Gardener-Agent/releases/tag/1.0.0) — you can download and run the system directly.
+### [Installable Package 1.0.0 Link](https://github.com/CrossOmics/Gardener-Agent/releases/tag/1.0.0)
 
 ## What is Gardener?
 
