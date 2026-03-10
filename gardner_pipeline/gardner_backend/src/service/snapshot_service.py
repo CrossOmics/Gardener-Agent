@@ -1,4 +1,4 @@
-from typing import List, Optional, Dict, Any
+from typing import List, Dict, Any
 from fastapi import Depends, HTTPException
 
 from dto.response.snapshot_query_response import SnapshotQueryResponse

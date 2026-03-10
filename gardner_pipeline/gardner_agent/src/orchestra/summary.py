@@ -1,11 +1,11 @@
 import re
 import json
-from typing import Dict, Any, List, Set
+from typing import Dict, Any, Set
 
 from langchain_core.messages import AIMessage
 from loguru import logger
 
-from base.base_model_manager import strong_llm
+import base.base_model_manager as base_model_manager
 from prompt.role_prompt import SUMMARY_PROMPT
 from .state import AgentState
 from base.history_log_call import log_agent_final
@@ -136,7 +136,7 @@ async def summary_node(state: AgentState) -> Dict[str, Any]:
     logger.debug(f" [Summary] Full Prompt {full_prompt}")
 
     # Part 8. Generate Report
-    response = await strong_llm.ainvoke(full_prompt)
+    response = await base_model_manager.strong_llm.ainvoke(full_prompt)
     report_content = response.content
 
     # [DB LOG] 9. Final Response

@@ -16,7 +16,7 @@ def corespect(
         # CoreSpect Config Parameters
         q: int = 20,
         r: int = 10,
-        core_frac: float = 0.2,
+        core_frac: float = 0.4,
         densify: bool = False,
         granularity: float = 0.5,
         resolution: float = 0.5,
@@ -95,4 +95,3 @@ def corespect(
 
     # Return Logic
     return adata, model
-

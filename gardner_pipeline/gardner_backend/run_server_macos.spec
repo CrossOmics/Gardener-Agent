@@ -50,7 +50,7 @@ binaries = collect_dynamic_libs('tbb')
 # This ensures 'celltypist_models.json' and 'gseapy_libraries.json' are packaged.
 project_resources = [
     (
-        'src/infrastructure/database/resources',   # Source: Where your JSONs live
+        'src/infrastructure/database/resources',   # Source
         'infrastructure/database/resources'        # Dest: Where Python code expects them
     )
 ]
@@ -60,7 +60,6 @@ a = Analysis(
     pathex=['src'],
     # Use the dynamically collected binaries
     binaries=binaries,
-    # ADDED: Merge metadata with your custom project resources
     datas=all_metadata + project_resources,
     hiddenimports=hidden_imports,
     hookspath=[],

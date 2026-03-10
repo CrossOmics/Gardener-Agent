@@ -1,4 +1,3 @@
-import os
 import shelve
 from typing import Tuple
 from loguru import logger
@@ -124,8 +123,7 @@ def init_llms() -> Tuple[object, object]:
     """
     Initializes the Base and Strong LLMs based on the following priority:
     1. Local Config (Shelve) + Keyring (CredentialManager)
-    2. Environment Variables (Fallback)
-    3. MockLLM (Safe Fallback)
+    2. MockLLM (Safe Fallback)
 
     Returns:
         Tuple[base_llm, strong_llm]
@@ -169,20 +167,7 @@ def init_llms() -> Tuple[object, object]:
     except Exception as e:
         logger.error(f"Failed to load LLM from local config: {e}")
 
-    # 2. Fallback: Try Environment Variables
-    logger.info("Attempting fallback to Environment Variables...")
-    try:
-        if os.getenv("GOOGLE_API_KEY"):
-            return _create_google_llms(os.getenv("GOOGLE_API_KEY"))
-        if os.getenv("OPENAI_API_KEY"):
-            return _create_openai_llms(os.getenv("OPENAI_API_KEY"))
-        if os.getenv("ANTHROPIC_API_KEY"):
-            return _create_anthropic_llms(os.getenv("ANTHROPIC_API_KEY"))
-
-    except Exception as e:
-        logger.error(f"Failed to load LLM from environment: {e}")
-
-    # 3. Final Fallback: MockLLM
+    # 2. Final Fallback: MockLLM
     logger.warning("No valid LLM configuration found. Using MockLLM.")
     return MockLLM(), MockLLM()
 
@@ -199,5 +184,5 @@ def reload_llm():
 
 
 # --- Global Instances ---
-# These instances are imported by other modules (executor, planner, etc.)
+# These instances are imported by other modules
 base_llm, strong_llm = init_llms()

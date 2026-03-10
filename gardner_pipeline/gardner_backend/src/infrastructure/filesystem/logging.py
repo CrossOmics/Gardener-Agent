@@ -94,6 +94,6 @@ def setup_logging(debug_mode: bool = False) -> None:
 
     # 7. Apply Whitelist (Silence noisy libs)
     _configure_log_levels(
-        app_packages=["lotus", "lotus_core", "gardner_backend"],
+        app_packages=["lotus", "lotus_core", "gardener_backend"],
         debug_mode=debug_mode,
     )

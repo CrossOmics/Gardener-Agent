@@ -4,7 +4,7 @@ from langchain_core.messages import SystemMessage
 
 from loguru import logger
 
-from base.base_model_manager import base_llm, strong_llm
+import base.base_model_manager as base_model_manager
 from base.context.snapshot_context import get_snapshot_info, get_snapshot_ancestors_full, get_snapshot_peers
 from base.context.history_message_context import get_recent_history
 from .state import AgentState
@@ -19,7 +19,7 @@ async def planner_node(state: AgentState) -> Dict[str, Any]:
     Routes to: respond / ask_user / execute
     """
     # Use Strong LLM for complex planning
-    planner_llm = strong_llm
+    planner_llm = base_model_manager.strong_llm
     session_id = state.get("session_id", "unknown_session")
     current_iter = state.get("iteration_count", 0) + 1
 

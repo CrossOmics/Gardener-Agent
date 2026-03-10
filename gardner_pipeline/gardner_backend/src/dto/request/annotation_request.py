@@ -20,6 +20,10 @@ class RunFullAnnotationRequest(BaseAnalysisRequest):
         description="List of CellTypist models. Pass empty list or null to skip."
     )
     majority_voting: bool = True
+    # LLM enhanced cell type annotation
+    llm_annotation: bool = False
+    # Uncertain threshold
+    uncertain_threshold: float = 0.5
     target_cluster_col: Optional[str] = Field(default="leiden")
 
 

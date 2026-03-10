@@ -1,10 +1,10 @@
-from datetime import datetime
 from typing import Optional
 from fastapi import Depends, HTTPException, status
 
 from infrastructure.database.dao.user_preference_dao import UserPreferenceDAO
 from dto.request.user_preference_request import CreateUserPreferenceRequest, UpdateUserPreferenceRequest
 from dto.response.user_preference_response import UserPreferenceResponse
+from infrastructure.database.model.default_preference import standard_settings
 
 
 class UserPreferenceService:
@@ -14,54 +14,6 @@ class UserPreferenceService:
 
     def __init__(self, dao: UserPreferenceDAO = Depends()):
         self.dao = dao
-        self.standard_settings = {
-            "preprocessing_params": {
-                "skip_qc_calculation": False,
-                "skip_qc_filter": False,
-                "organism": "Human",
-                "min_genes": 300,
-                "min_cells": 5,
-                "pct_mt_max": 15.0,
-                "max_counts": 40000,
-
-                "skip_hvg": False,
-                "n_top_genes": 2500,
-                "flavor": "seurat",
-                "target_sum": 10000.0,
-
-                "skip_pca": False,
-                "n_comps": 50,
-                "svd_solver": "arpack",
-
-                "skip_neighbors": False,
-                "n_neighbors": 20,
-                "n_pcs": 30
-            },
-
-            "clustering_params": {
-                "method": "leiden",
-                "resolution": 0.5,
-                "run_hierarchical": True
-            },
-
-            "deg_params": {
-                "method": "wilcoxon",
-                "n_top_genes": 100
-            },
-
-            "annotation_params": {
-                "categories": [
-                    "CellMarker_2024",
-                    "BioPlanet_2019",
-                    "NCI-Nature_2016",
-                    "GO_Biological_Process_2023"
-                ],
-                "top_n_genes": 50,
-                "model_names": ["Immune_All_Low.pkl"],
-                "majority_voting": True,
-                "target_cluster_col": "leiden"
-            }
-        }
 
     def get_preference(self, name: str) -> UserPreferenceResponse:
         """
@@ -115,7 +67,7 @@ class UserPreferenceService:
             # Fallback: No preference found, initialize a default one
             default_name = f"preference_{count + 1}"
             # Create and persist the default preference
-            pref = self.dao.create_preference(default_name, self.standard_settings)
+            pref = self.dao.create_preference(default_name, standard_settings)
             # Validation check
             if not pref:
                 raise HTTPException(

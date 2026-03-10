@@ -21,10 +21,10 @@ class CorespectModel:
     CoreSpect model orchestrator.
 
     Stages:
-        1. flowrank()              â node ranking and density estimation
-        2. stable_core()           â stable core extraction
-        3. fine_grained_core()     â optional refinement
-        4. propagation_from_core() â diffusion or label spreading
+        1. flowrank()               node ranking and density estimation
+        2. stable_core()            stable core extraction
+        3. fine_grained_core()      optional refinement
+        4. propagation_from_core()  diffusion or label spreading
     """
 
     def __init__(self, X,

@@ -3,9 +3,9 @@ from typing import Dict, Any, List
 
 from json_repair import json_repair
 from loguru import logger
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage
 
-from base.base_model_manager import base_llm
+import base.base_model_manager as base_model_manager
 from base.history_log_call import log_agent_thought
 from prompt.role_prompt import REFLECTION_PROMPT
 
@@ -70,7 +70,7 @@ async def reflection_node(state: Dict[str, Any]) -> Dict[str, Any]:
     # 3. Call Strong LLM
     try:
         # Use HumanMessage instead of SystemMessage for better compatibility with Gemini
-        response = await base_llm.ainvoke([
+        response = await base_model_manager.base_llm.ainvoke([
             HumanMessage(content=prompt)
         ])
 

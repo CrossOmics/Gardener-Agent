@@ -2,7 +2,7 @@ from typing import Dict, Any
 from langchain_core.messages import AIMessage
 from loguru import logger
 
-from base.base_model_manager import base_llm
+import base.base_model_manager as base_model_manager
 from .state import AgentState
 from prompt.role_prompt import ASK_USER_PROMPT
 from base.history_log_call import log_agent_final
@@ -12,7 +12,7 @@ async def ask_user_node(state: AgentState) -> Dict[str, Any]:
     """
     Ask User Node - Requests missing information.
     """
-    ask_user_llm = base_llm
+    ask_user_llm = base_model_manager.base_llm
     session_id = state.get("session_id", "unknown_session")
     user_input = state["messages"][-1].content
     plan = state.get("current_plan", {})

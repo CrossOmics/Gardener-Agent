@@ -6,7 +6,7 @@ from loguru import logger
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
 
-from base.base_model_manager import base_llm
+import base.base_model_manager as base_model_manager
 from tool.tool_definitions import TOOL_REGISTRY
 from base.history_log_call import log_agent_thought
 from utils.message_utils import serialize_messages
@@ -116,7 +116,7 @@ You are the **Execution Agent**. You are executing Step {step_number} of a plan.
             # 3. Create Agent for this step
             # We bind only the specific tool to reduce confusion and ensure strict adherence to the plan
             agent_app = create_agent(
-                model=base_llm,
+                model=base_model_manager.base_llm,
                 tools=[tool],
                 system_prompt=system_prompt,
                 debug=False

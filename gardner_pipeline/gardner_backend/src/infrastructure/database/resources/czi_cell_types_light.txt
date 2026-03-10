@@ -1,0 +1,907 @@
+A2 amacrine cell
+B cell
+B cell zone reticular cell
+B-1 B cell
+B-1a B cell
+B-1b B cell
+B-2 B cell
+BEST4+ intestinal epithelial cell, human
+Bergmann glial cell
+CD103-positive dendritic cell
+CD14-low, CD16-positive monocyte
+CD14-positive monocyte
+CD14-positive, CD16-low monocyte
+CD14-positive, CD16-negative classical monocyte
+CD14-positive, CD16-positive monocyte
+CD141-positive myeloid dendritic cell
+CD16-negative, CD56-bright natural killer cell, human
+CD16-positive, CD56-dim natural killer cell, human
+CD1c-positive myeloid dendritic cell
+CD22-positive, CD38-low small pre-B cell
+CD34-positive, CD38-negative hematopoietic stem cell
+CD34-positive, CD56-positive, CD117-positive common innate lymphoid precursor, human
+CD38-negative naive B cell
+CD4-negative, CD8-negative, alpha-beta intraepithelial T cell
+CD4-positive helper T cell
+CD4-positive, CD25-positive, alpha-beta regulatory T cell
+CD4-positive, alpha-beta T cell
+CD4-positive, alpha-beta cytotoxic T cell
+CD4-positive, alpha-beta memory T cell
+CD4-positive, alpha-beta thymocyte
+CD56-positive, CD161-positive immature natural killer cell, human
+CD8-alpha alpha positive, gamma-delta intraepithelial T cell
+CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell
+CD8-alpha-beta-positive, alpha-beta intraepithelial T cell
+CD8-positive, alpha-beta T cell
+CD8-positive, alpha-beta cytokine secreting effector T cell
+CD8-positive, alpha-beta cytotoxic T cell
+CD8-positive, alpha-beta memory T cell
+CD8-positive, alpha-beta memory T cell, CD45RO-positive
+CD8-positive, alpha-beta regulatory T cell
+CD8-positive, alpha-beta thymocyte
+CD8_alpha-positive CD11b-negative dendritic cell
+CNS interneuron
+Cajal-Retzius cell
+DN1 thymic pro-T cell
+DN3 thymocyte
+DN4 thymocyte
+GABAergic amacrine cell
+GABAergic interneuron
+GABAergic neuron
+GIP cell
+H1 horizontal cell
+H2 horizontal cell
+Hofbauer cell
+ILC1, human
+IgA plasma cell
+IgA plasmablast
+IgG memory B cell
+IgG plasma cell
+IgG plasmablast
+IgG-negative class switched memory B cell
+IgM plasma cell
+IgM plasmablast
+Kupffer cell
+L2/3 intratelencephalic projecting glutamatergic neuron
+L2/3 intratelencephalic projecting glutamatergic neuron of the primary motor cortex
+L2/3-6 intratelencephalic projecting glutamatergic neuron
+L4 intratelencephalic projecting glutamatergic neuron
+L4/5 intratelencephalic projecting glutamatergic neuron
+L4/5 intratelencephalic projecting glutamatergic neuron of the primary motor cortex
+L5 extratelencephalic projecting glutamatergic cortical neuron
+L5 intratelencephalic projecting glutamatergic neuron
+L5/6 near-projecting glutamatergic neuron
+L5/6 near-projecting glutamatergic neuron of the primary motor cortex
+L6 corticothalamic-projecting glutamatergic cortical neuron
+L6 intratelencephalic projecting glutamatergic neuron
+L6 intratelencephalic projecting glutamatergic neuron of the primary motor cortex
+L6b glutamatergic cortical neuron
+Langerhans cell
+Leydig cell
+M cell of gut
+MHC-II-positive classical monocyte
+Merkel cell
+Mueller cell
+NKp44-negative group 3 innate lymphoid cell, human
+NKp44-positive group 3 innate lymphoid cell, human
+NKp46-positive innate lymphoid cell, human
+OFF midget ganglion cell
+OFF parasol ganglion cell
+OFF retinal ganglion cell
+OFF-bipolar cell
+OFFx cell
+ON midget ganglion cell
+ON parasol ganglion cell
+ON retinal ganglion cell
+ON-bipolar cell
+ON-blue cone bipolar cell
+P/D1 enteroendocrine cell
+PP cell
+Purkinje cell
+S cone cell
+Schwann cell
+Schwann cell precursor
+Sertoli cell
+T cell
+T follicular helper cell
+T follicular regulatory cell
+T-helper 1 cell
+T-helper 17 cell
+T-helper 2 cell
+T-helper 22 cell
+Tc1 cell
+VIP GABAergic cortical interneuron
+abnormal cell
+absorptive cell
+acinar cell
+acinar cell of salivary gland
+activated CD4-negative, CD8-negative type I NK T cell
+activated CD4-positive, alpha-beta T cell
+activated CD4-positive, alpha-beta T cell, human
+activated CD8-positive, alpha-beta T cell
+activated CD8-positive, alpha-beta T cell, human
+activated type II NK T cell
+adipocyte
+adipocyte of breast
+adipocyte of epicardial fat of left ventricle
+adipose macrophage
+adventitial cell
+airway submucosal gland collecting duct epithelial cell
+airway submucosal gland duct basal cell
+alpha-beta T cell
+alternatively activated macrophage
+alveolar adventitial fibroblast
+alveolar capillary type 1 endothelial cell
+alveolar capillary type 2 endothelial cell
+alveolar macrophage
+alveolar type 1 fibroblast cell
+amacrine cell
+anterior lens cell
+aortic endothelial cell
+aortic smooth muscle cell
+articular chondrocyte
+astrocyte
+astrocyte of the cerebellum
+astrocyte of the cerebral cortex
+auditory epithelial cell
+basal cell
+basal cell of epidermis
+basal cell of epithelium of lobular bronchiole
+basal cell of epithelium of trachea
+basal cell of prostate epithelium
+basal cell of urothelium
+basal epithelial cell of prostatic duct
+basal epithelial cell of tracheobronchial tree
+basal-myoepithelial cell of mammary gland
+basophil
+basophil mast progenitor cell
+basophilic erythroblast
+bipolar neuron
+bistratified retinal ganglion cell
+bladder cell
+bladder urothelial cell
+blood cell
+blood vessel endothelial cell
+blood vessel smooth muscle cell
+bone marrow cell
+brain pericyte
+brain vascular cell
+brainstem motor neuron
+bronchial epithelial cell
+bronchial goblet cell
+bronchial smooth muscle cell
+bronchus fibroblast of lung
+brown adipocyte
+brown preadipocyte
+brush cell
+brush cell of epithelium proper of large intestine
+brush cell of trachea
+brush cell of tracheobronchial tree
+capillary endothelial cell
+cardiac blood vessel endothelial cell
+cardiac endothelial cell
+cardiac mesenchymal cell
+cardiac muscle cell
+cardiac muscle myoblast
+cardiac neuron
+cardiac valve cell
+caudal ganglionic eminence derived interneuron
+cell
+cell of skeletal muscle
+central memory CD4-positive, alpha-beta T cell
+central memory CD8-positive, alpha-beta T cell
+central nervous system macrophage
+centrilobular region hepatocyte
+centroblast
+centrocyte
+cerebellar Golgi cell
+cerebellar granule cell
+cerebellar granule cell precursor
+cerebral cortex GABAergic interneuron
+cerebral cortex endothelial cell
+cerebral cortex neuron
+chandelier cell
+chandelier pvalb GABAergic cortical interneuron
+cholangiocyte
+chondroblast
+chondrocyte
+chorionic trophoblast cell
+choroid plexus epithelial cell
+chromaffin cell
+ciliary muscle cell
+ciliated cell
+ciliated cell of the bronchus
+ciliated columnar cell of tracheobronchial tree
+ciliated epithelial cell
+class switched memory B cell
+classical monocyte
+club cell
+cochlea auditory hair cell
+collagen secreting cell
+colon epithelial cell
+colon goblet cell
+colon macrophage
+columnar/cuboidal epithelial cell
+common dendritic progenitor
+common lymphoid progenitor
+common myeloid progenitor
+cone retinal bipolar cell
+conjunctiva goblet cell
+conjunctival epithelial cell
+connective tissue cell
+contractile cell
+conventional dendritic cell
+cord blood hematopoietic stem cell
+corneal endothelial cell
+corneal epithelial cell
+cortical cell of adrenal gland
+cortical interneuron
+cortical thymic epithelial cell
+corticomedullary thymic epithelial cell
+corticothalamic-projecting glutamatergic cortical neuron
+cranial motor neuron
+cytotoxic T cell
+decidual cell
+decidual natural killer cell, human
+dendritic cell
+dendritic cell, human
+dermis microvascular lymphatic vessel endothelial cell
+deuterosomal cell
+differentiation-committed oligodendrocyte precursor
+diffuse bipolar 1 cell
+diffuse bipolar 2 cell
+diffuse bipolar 3a cell
+diffuse bipolar 3b cell
+diffuse bipolar 4 cell
+diffuse bipolar 6 cell
+direct pathway medium spiny neuron
+dopaminergic neuron
+double negative T regulatory cell
+double negative thymocyte
+double-positive blast
+double-positive, alpha-beta thymocyte
+duct epithelial cell
+duodenum glandular cell
+early T lineage precursor
+early lymphoid progenitor
+early pro-B cell
+early promyelocyte
+ectodermal cell
+effector CD4-positive, alpha-beta T cell
+effector CD8-positive, alpha-beta T cell
+effector memory CD4-positive, alpha-beta T cell
+effector memory CD4-positive, alpha-beta T cell, terminally differentiated
+effector memory CD8-positive, alpha-beta T cell
+effector memory CD8-positive, alpha-beta T cell, terminally differentiated
+efferent neuron
+elicited macrophage
+embryonic blood vessel endothelial progenitor cell
+embryonic fibroblast
+embryonic stem cell
+endo-epithelial cell
+endocardial cell
+endocrine cell
+endosteal cell
+endothelial cell
+endothelial cell of arteriole
+endothelial cell of artery
+endothelial cell of coronary artery
+endothelial cell of hepatic sinusoid
+endothelial cell of lymphatic vessel
+endothelial cell of pericentral hepatic sinusoid
+endothelial cell of periportal hepatic sinusoid
+endothelial cell of placenta
+endothelial cell of respiratory system lymphatic vessel
+endothelial cell of sinusoid
+endothelial cell of uterus
+endothelial cell of vascular tree
+endothelial cell of venule
+endothelial stalk cell
+endothelial tip cell
+enteric neuron
+enteric smooth muscle cell
+enterocyte
+enterocyte of colon
+enterocyte of epithelium of large intestine
+enterocyte of epithelium of small intestine
+enterocyte of epithelium proper of ileum
+enteroendocrine cell
+enteroendocrine cell of colon
+enteroendocrine cell of small intestine
+enucleate erythrocyte
+enucleated reticulocyte
+eosinophil
+ependymal cell
+epicardial adipocyte
+epidermal Langerhans cell
+epidermal cell
+epithelial cell
+epithelial cell of alveolus of lung
+epithelial cell of amnion
+epithelial cell of distal tubule
+epithelial cell of esophagus
+epithelial cell of exocrine pancreas
+epithelial cell of glomerular capsule
+epithelial cell of lacrimal sac
+epithelial cell of large intestine
+epithelial cell of lower respiratory tract
+epithelial cell of lung
+epithelial cell of nephron
+epithelial cell of pancreas
+epithelial cell of parathyroid gland
+epithelial cell of prostate
+epithelial cell of proximal tubule
+epithelial cell of proximal tubule segment 1
+epithelial cell of proximal tubule segment 3
+epithelial cell of small intestine
+epithelial cell of stratum germinativum of esophagus
+epithelial cell of sweat gland
+epithelial cell of thymus
+epithelial cell of thyroid gland
+epithelial cell of urethra
+epithelial cell of uterus
+epithelial fate stem cell
+erythroblast
+erythrocyte
+erythroid lineage cell
+erythroid progenitor cell
+erythroid progenitor cell, mammalian
+eurydendroid cell
+exhausted T cell
+extraembryonic cell
+extrafusal muscle fiber
+extravillous trophoblast
+eye photoreceptor cell
+fallopian tube ciliated cell
+fallopian tube secretory epithelial cell
+fast muscle cell
+female germ cell
+fenestrated endothelial cell
+fetal cardiomyocyte
+fibro/adipogenic progenitor cell
+fibroblast
+fibroblast of breast
+fibroblast of cardiac tissue
+fibroblast of connective tissue of glandular part of prostate
+fibroblast of connective tissue of nonglandular part of prostate
+fibroblast of connective tissue of prostate
+fibroblast of dermis
+fibroblast of lung
+fibroblast of lymphatic vessel
+fibroblast of mammary gland
+fibroblast of the aortic adventitia
+fibrocyte
+flat midget bipolar cell
+follicular B cell
+follicular dendritic cell
+forebrain neuroblast
+forebrain radial glial cell
+foveolar cell of stomach
+fraction A pre-pro B cell
+gamma-delta T cell
+ganglion interneuron
+gastrointestinal tract (lamina propria) macrophage of large intestine
+germ cell
+germinal center B cell
+giant bipolar cell
+gingival epithelial cell
+glandular cell of esophagus
+glandular epithelial cell
+glial cell
+glioblast
+glomerular capillary endothelial cell
+glomerular endothelial cell
+glomerular mesangial cell
+glutamatergic neuron
+glycinergic amacrine cell
+goblet cell
+granular cell of epidermis
+granule cell
+granulocyte
+granulocyte monocyte progenitor cell
+granulocytopoietic cell
+granulosa cell
+group 1 innate lymphoid cell
+group 2 innate lymphoid cell
+group 2 innate lymphoid cell, human
+group 3 innate lymphoid cell
+group 3 innate lymphoid cell, human
+gut absorptive cell
+gut endothelial cell
+hair follicle melanocyte
+hair follicular keratinocyte
+helper T cell
+hematopoietic cell
+hematopoietic multipotent progenitor cell
+hematopoietic oligopotent progenitor cell
+hematopoietic precursor cell
+hematopoietic stem cell
+hepatic pit cell
+hepatic stellate cell
+hepatoblast
+hepatocyte
+hippocampal astrocyte
+hippocampal granule cell
+hippocampal interneuron
+hippocampal neuron
+hippocampal pyramidal neuron
+hypendymal cell
+hypertrophic chondrocyte
+hypothalamus cell
+ileal goblet cell
+immature B cell
+immature NK T cell
+immature Schwann cell
+immature T cell
+immature alpha-beta T cell
+immature astrocyte
+immature innate lymphoid cell
+immature natural killer cell
+immature neutrophil
+indirect pathway medium spiny neuron
+inflammatory cell
+inflammatory macrophage
+inhibitory interneuron
+inhibitory motor neuron
+innate lymphoid cell
+intermediate cell of urothelium
+intermediate mesodermal cell
+intermediate monocyte
+interneuron
+interstitial cell of Cajal
+interstitial cell of ovary
+intestinal crypt stem cell
+intestinal crypt stem cell of colon
+intestinal crypt stem cell of large intestine
+intestinal crypt stem cell of small intestine
+intestinal enteroendocrine cell
+intestinal epithelial cell
+intestinal tuft cell
+intestine goblet cell
+intraepithelial lymphocyte
+intrahepatic cholangiocyte
+invaginating midget bipolar cell
+ionocyte
+iris pigment epithelial cell
+keratinocyte
+keratinocyte stem cell
+keratocyte
+kidney afferent arteriole endothelial cell
+kidney arterial blood vessel cell
+kidney capillary endothelial cell
+kidney cell
+kidney collecting duct cell
+kidney collecting duct epithelial cell
+kidney collecting duct intercalated cell
+kidney collecting duct principal cell
+kidney connecting tubule epithelial cell
+kidney connecting tubule principal cell
+kidney cortex artery cell
+kidney cortex collecting duct epithelial cell
+kidney cortex tubule cell
+kidney distal convoluted tubule epithelial cell
+kidney efferent arteriole endothelial cell
+kidney epithelial cell
+kidney glomerular epithelial cell
+kidney inner medulla collecting duct epithelial cell
+kidney interstitial alternatively activated macrophage
+kidney interstitial cell
+kidney interstitial fibroblast
+kidney loop of Henle ascending limb epithelial cell
+kidney loop of Henle cortical thick ascending limb epithelial cell
+kidney loop of Henle descending limb epithelial cell
+kidney loop of Henle epithelial cell
+kidney loop of Henle medullary thick ascending limb epithelial cell
+kidney loop of Henle thick ascending limb epithelial cell
+kidney loop of Henle thin ascending limb epithelial cell
+kidney loop of Henle thin descending limb epithelial cell
+kidney pelvis urothelial cell
+kidney proximal convoluted tubule epithelial cell
+kidney proximal straight tubule epithelial cell
+kidney resident macrophage
+lactocyte
+lamp5 GABAergic cortical interneuron
+large intestine goblet cell
+large pre-B-II cell
+late pro-B cell
+late promyelocyte
+lateral mesodermal cell
+lens epithelial cell
+lens fiber cell
+leptomeningeal cell
+leukocyte
+liver dendritic cell
+luminal adaptive secretory precursor cell of mammary gland
+luminal cell of prostate epithelium
+luminal epithelial cell of mammary gland
+luminal hormone-sensing cell of mammary gland
+lung ciliated cell
+lung endothelial cell
+lung goblet cell
+lung interstitial macrophage
+lung macrophage
+lung megakaryocyte
+lung microvascular endothelial cell
+lung neuroendocrine cell
+lung perichondrial fibroblast
+lung pericyte
+lung resident memory CD4-positive, alpha-beta T cell
+lung resident memory CD8-positive, alpha-beta T cell
+lung secretory cell
+luteal cell
+lymph node lymphatic vessel endothelial cell
+lymphatic endothelial cell of medulla ceiling
+lymphatic endothelial cell of subcapsular sinus ceiling
+lymphatic endothelial cell of subcapsular sinus floor
+lymphocyte
+lymphocyte of B lineage
+lymphoid lineage restricted progenitor cell
+macroglial cell
+macrophage
+macrophage dendritic cell progenitor
+macula densa epithelial cell
+male germ cell
+malignant cell
+mammary gland epithelial cell
+mast cell
+mature B cell
+mature CD4 single-positive thymocyte
+mature CD8 single-positive thymocyte
+mature NK T cell
+mature T cell
+mature alpha-beta T cell
+mature astrocyte
+mature conventional dendritic cell
+mature gamma-delta T cell
+mature microglial cell
+mature neutrophil
+medium spiny neuron
+medullary thymic epithelial cell
+medullary thymic epithelial cell type 1
+medullary thymic epithelial cell type 2
+medullary thymic epithelial cell type 3
+megakaryocyte
+megakaryocyte progenitor cell
+megakaryocyte-erythroid progenitor cell
+meis2 expressing cortical GABAergic cell
+melanocyte
+melanocyte of skin
+memory B cell
+memory T cell
+memory regulatory T cell
+meningeal macrophage
+mesangial cell
+mesenchymal cell
+mesenchymal lymphangioblast
+mesenchymal stem cell
+mesenchymal stem cell of adipose tissue
+mesodermal cell
+mesonephric nephron tubule epithelial cell
+mesothelial cell
+mesothelial cell of epicardium
+mesothelial cell of pleura
+mesothelial cell of visceral pleura
+mesothelial fibroblast
+metallothionein-positive alveolar macrophage
+metanephric mesenchyme stem cell
+microcirculation associated smooth muscle cell
+microfold cell of epithelium of small intestine
+microglial cell
+microvascular endothelial cell
+midget ganglion cell of retina
+midzonal region hepatocyte
+migratory enteric neural crest cell
+monocyte
+monocyte-derived dendritic cell
+mononuclear cell
+mononuclear phagocyte
+motor neuron
+mucosal invariant T cell
+mucous cell of stomach
+mucous neck cell
+mucus secreting cell
+mucus secreting cell of tracheobronchial tree submucosal gland
+multi-ciliated epithelial cell
+mural cell
+muscle cell
+muscle fibroblast
+muscle precursor cell
+myelinating Schwann cell
+myelocyte
+myeloid cell
+myeloid dendritic cell
+myeloid dendritic cell, human
+myeloid leukocyte
+myeloid lineage restricted progenitor cell
+myeloid suppressor cell
+myo-medullary thymic epithelial cell
+myoblast
+myocyte of sinoatrial node
+myoepithelial cell
+myofibroblast cell
+myometrial cell
+myotube
+naive B cell
+naive T cell
+naive regulatory T cell
+naive thymus-derived CD4-positive, alpha-beta T cell
+naive thymus-derived CD8-positive, alpha-beta T cell
+nasal mucosa goblet cell
+natural T-regulatory cell
+natural killer cell
+near-projecting glutamatergic cortical neuron
+neoplastic cell
+nephron tubule epithelial cell
+neural cell
+neural crest cell
+neural progenitor cell
+neural stem cell
+neuro-medullary thymic epithelial cell
+neuroblast (sensu Nematoda and Protostomia)
+neuroblast (sensu Vertebrata)
+neuroendocrine cell
+neuroepithelial stem cell
+neuron
+neuron associated cell
+neuron associated cell (sensu Vertebrata)
+neuronal brush cell
+neuronal receptor cell
+neuroplacodal cell
+neutrophil
+neutrophil progenitor cell
+non-classical monocyte
+non-myelinating Schwann cell
+non-pigmented ciliary epithelial cell
+non-terminally differentiated cell
+noradrenergic cell
+notochordal cell
+odontoblast
+olfactory ensheathing cell
+olfactory epithelial cell
+olfactory receptor cell
+oligodendrocyte
+oligodendrocyte precursor cell
+onychocyte
+oocyte
+oogonial cell
+oral mucosa squamous cell
+orthochromatic erythroblast
+osteoblast
+osteoclast
+ovarian surface epithelial cell
+pancreatic A cell
+pancreatic D cell
+pancreatic PP cell
+pancreatic acinar cell
+pancreatic ductal cell
+pancreatic endocrine cell
+pancreatic epsilon cell
+pancreatic stellate cell
+paneth cell
+paneth cell of colon
+paneth cell of epithelium of small intestine
+papillary tips cell
+parasol ganglion cell of retina
+parasympathetic neuron
+parietal cell
+parietal epithelial cell
+peg cell
+peptic cell
+pericyte
+peridermal cell
+perineurial cell
+perineuronal satellite cell
+peripheral blood mononuclear cell
+peripheral nervous system neuron
+periportal region hepatocyte
+peritubular capillary endothelial cell
+perivascular cell
+perivascular macrophage
+phagocyte
+photoreceptor cell
+pigmented ciliary epithelial cell
+pigmented epithelial cell
+pinealocyte
+pituitary gland cell
+placental villous trophoblast
+plasma cell
+plasmablast
+plasmacytoid dendritic cell
+plasmacytoid dendritic cell, human
+plasmatocyte
+platelet
+podocyte
+polychromatophilic erythroblast
+pre-B-I cell
+pre-conventional dendritic cell
+pre-natural killer cell
+preadipocyte
+precursor B cell
+precursor cell
+preosteoblast
+prickle cell
+primary cultured cell
+primary sensory neuron (sensu Teleostei)
+primitive erythroid progenitor
+primitive red blood cell
+primordial germ cell
+pro-B cell
+pro-T cell
+proerythroblast
+professional antigen presenting cell
+progenitor cell
+progenitor cell of endocrine pancreas
+progenitor cell of mammary luminal epithelium
+promonocyte
+promyelocyte
+prostate gland microvascular endothelial cell
+prostate stromal cell
+pulmonary alveolar epithelial cell
+pulmonary alveolar type 1 cell
+pulmonary alveolar type 2 cell
+pulmonary artery endothelial cell
+pulmonary capillary endothelial cell
+pulmonary interstitial fibroblast
+pulmonary ionocyte
+pvalb GABAergic cortical interneuron
+pyramidal neuron
+radial glial cell
+regular atrial cardiac myocyte
+regular ventricular cardiac myocyte
+regulatory T cell
+renal alpha-intercalated cell
+renal beta-intercalated cell
+renal intercalated cell
+renal interstitial pericyte
+renal medullary fibroblast
+renal principal cell
+respiratory basal cell
+respiratory epithelial cell
+respiratory goblet cell
+respiratory hillock cell
+respiratory suprabasal cell
+reticular cell
+reticulocyte
+retina horizontal cell
+retinal astrocyte
+retinal bipolar neuron
+retinal blood vessel endothelial cell
+retinal cone cell
+retinal ganglion cell
+retinal pigment epithelial cell
+retinal progenitor cell
+retinal rod cell
+rod bipolar cell
+salivary gland cell
+salivary gland glandular cell
+sebaceous gland cell
+sebum secreting cell
+secondary crest myofibroblast
+secondary lens fiber
+secondary lymphoid organ macrophage
+secretory cell
+seminal vesicle glandular cell
+sensory neuron
+sensory neuron of dorsal root ganglion
+seromucus secreting cell
+serous cell of epithelium of bronchus
+serous cell of epithelium of trachea
+serous secreting cell
+serous secreting cell of bronchus submucosal gland
+skeletal muscle fiber
+skeletal muscle fibroblast
+skeletal muscle myoblast
+skeletal muscle satellite cell
+skeletal muscle satellite stem cell
+skin fibroblast
+slow muscle cell
+small bistratified retinal ganglion cell
+small intestine goblet cell
+small pre-B-II cell
+smooth muscle cell
+smooth muscle cell of large intestine
+smooth muscle cell of prostate
+smooth muscle cell of small intestine
+smooth muscle cell of sphincter of pupil
+smooth muscle cell of the brain vasculature
+smooth muscle cell of the pulmonary artery
+smooth muscle cell of trachea
+smooth muscle fiber of ileum
+smooth muscle myoblast
+sncg GABAergic cortical interneuron
+sperm
+spinal cord motor neuron
+spiral ganglion neuron
+splanchnic mesodermal cell
+squamous epithelial cell
+sst GABAergic cortical interneuron
+sst chodl GABAergic cortical interneuron
+starburst amacrine cell
+stellate neuron
+stem cell
+stem cell of epidermis
+stratified epithelial cell
+stromal cell
+stromal cell of bone marrow
+stromal cell of endometrium
+stromal cell of lamina propria of small intestine
+stromal cell of ovary
+subcutaneous adipocyte
+supporting cell
+suprabasal keratinocyte
+surface ectodermal cell
+sympathetic neuron
+syncytiotrophoblast cell
+tanycyte
+taste receptor cell
+tendon cell
+thalamic excitatory neuron
+theca cell
+thymic fibroblast type 1
+thymic fibroblast type 2
+thymic macrophage
+thymocyte
+thyroid follicular cell
+tissue-resident macrophage
+tongue muscle cell
+tonsil germinal center B cell
+tracheal goblet cell
+tracheobronchial goblet cell
+tracheobronchial serous cell
+tracheobronchial smooth muscle cell
+transit amplifying cell
+transit amplifying cell of colon
+transit amplifying cell of small intestine
+transitional stage B cell
+trigeminal neuron
+trophoblast giant cell
+tuft cell of colon
+tuft cell of small intestine
+type 1 cone bipolar cell (sensu Mus)
+type 2 cone bipolar cell (sensu Mus)
+type 3a cone bipolar cell
+type 3b cone bipolar cell
+type 4 cone bipolar cell (sensu Mus)
+type 5 cone bipolar cell (sensu Mus)
+type 5a cone bipolar cell
+type 5b cone bipolar cell
+type 6 cone bipolar cell (sensu Mus)
+type 7 cone bipolar cell (sensu Mus)
+type 8 cone bipolar cell (sensu Mus)
+type 9 cone bipolar cell (sensu Mus)
+type A enteroendocrine cell
+type B pancreatic cell
+type D enteroendocrine cell
+type EC enteroendocrine cell
+type G enteroendocrine cell
+type I NK T cell
+type I cell of adrenal cortex
+type I enteroendocrine cell
+type I muscle cell
+type II NK T cell
+type II muscle cell
+type IIa muscle cell
+type IIb muscle cell
+type L enteroendocrine cell
+type N enteroendocrine cell
+umbrella cell of urothelium
+unipolar brush cell
+unknown
+unswitched memory B cell
+ureteric bud cell
+urethra urothelial cell
+urothelial cell
+uterine smooth muscle cell
+valve endothelial cell
+valve interstitial cell
+vasa recta ascending limb cell
+vasa recta cell
+vasa recta descending limb cell
+vascular associated smooth muscle cell
+vascular leptomeningeal cell
+vascular leptomeningeal cell (Mmus)
+vascular lymphangioblast
+vein endothelial cell
+vein endothelial cell of respiratory system
+ventricular cardiac muscle cell
+visceromotor neuron

@@ -30,7 +30,8 @@ async def run_full_annotation_pipeline(
     """
     try:
         logger.info(f"Received Full Annotation request for Project {request.project_id}")
-        return await task_executor.run_in_thread(annotation_service.run_full_annotation, request)
+        # Since run_full_annotation is now async, we await it directly
+        return await annotation_service.run_full_annotation(request)
     except ValueError as e:
         logger.warning(f"Annotation validation error: {e}")
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))

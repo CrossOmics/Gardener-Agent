@@ -1,5 +1,4 @@
 import math
-from collections import defaultdict
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,6 +23,7 @@ from util.snapshot_utils import resolve_source_snapshot
 
 from service.helper.project_id_resolver_service import ProjectIdResolverService
 from service.helper.service_constant import DGE_BRANCH, CLUSTERING_BRANCH, ANNOTATION_BRANCH
+from service.helper.api_call_service import AgentAPIService
 
 from dto.request.annotation_request import RunAnnotationRequest, RunCellTypistRequest, RunFullAnnotationRequest, \
     UpdateAnnotationLabelRequest
@@ -42,6 +42,36 @@ class AnnotationService:
         self.snapshot_dao = snapshot_dao
         self.storage = storage
         self.project_id_resolver = project_id_resolver
+        # uncertain threshold for each celltype
+        self.uncertain_threshold = 0.5
+        self._czi_cell_types = None
+
+    def _get_czi_cell_types(self) -> str:
+        """
+        Loads the CZI cell type ontology from a lightweight text file.
+        Caches the result to avoid redundant file reads.
+        """
+        from pathlib import Path
+
+        # Check if it is already loaded in memory (cache)
+        if self._czi_cell_types is None:
+            try:
+                # 1. Resolve path to the backend src directory
+                source_path = Path(__file__).resolve().parent.parent
+
+                # 2. Point to the lightweight txt file instead of the heavy parquet
+                czi_celltype_path = source_path / "infrastructure" / "database" / "resources" / "czi_cell_types_light.txt"
+
+                # 3. Read the pre-processed string directly from the file
+                with open(czi_celltype_path, "r", encoding="utf-8") as f:
+                    self._czi_cell_types = f.read().strip()
+
+                logger.info("Successfully loaded lightweight CZI cell types from txt file.")
+            except Exception as e:
+                logger.error(f"Failed to load CZI cell types from txt: {e}")
+                self._czi_cell_types = ""  # Fallback to empty string on failure
+
+        return self._czi_cell_types
 
     def calculate_gseapy_confidence(self, adj_p_value: float) -> float:
         """
@@ -63,9 +93,46 @@ class AnnotationService:
 
         return round(confidence, 4)
 
-    def run_full_annotation(self, request: RunFullAnnotationRequest) -> AnnotationResultDTO:
+    async def llm_annotation(self, uncertain_dict: Dict[str, Any], valid_cell_types: str) -> Dict[str, Any]:
         """
-        [Refactored] Consolidated annotation pipeline with consistent color binding.
+        input
+        uncertain_dict: an uncertain hashmap with all celltype with low confidence score
+        key: cluster id
+        value: [top 20 dge (List), uncertain type set (Set)]
+        valid_cell_types: A string containing all valid cell types from the ontology.
+
+        Returns:
+        LLM annotation result (Dict compatible with llm_dict structure)
+        """
+        # Prepare payload: Convert sets to lists for JSON serialization
+        serializable_dict = {}
+        for cid, data in uncertain_dict.items():
+            # data[0] is DGE list, data[1] is Uncertain Labels Set
+            serializable_dict[cid] = {
+                "dge": data[0],
+                "uncertain_labels": list(data[1])
+            }
+
+        payload = {
+            "uncertain_data": serializable_dict,
+            "valid_cell_types": valid_cell_types
+        }
+
+        try:
+            # Call Agent Server
+            # Endpoint is tentatively "/annotation"
+            response = await AgentAPIService.call_agent("POST", "/annotation", payload)
+
+            # Expecting response to contain the resolved annotations
+            # The agent should return a dict where keys are cluster IDs and values match llm_dict structure
+            return response.get("llm_annotation", {})
+        except Exception as e:
+            logger.error(f"LLM Annotation failed: {e}")
+            raise e
+
+    async def run_full_annotation(self, request: RunFullAnnotationRequest) -> AnnotationResultDTO:
+        """
+        Consolidated annotation pipeline with consistent color binding.
         It binds the new labels (T-cells) to the original Cluster ID colors (Cluster 0/Blue) immediately.
         """
 
@@ -215,7 +282,6 @@ class AnnotationService:
                 adata.obs[col_name] = adata.obs[cluster_col].astype(str).map(category_label_maps[cat])
                 adata.obs[col_name] = adata.obs[col_name].astype("category")
 
-                # === BIND COLORS (Crucial Step) ===
                 # This ensures "T-cells" gets the same color as "Cluster 0" (Blue)
                 self._apply_cluster_colors_to_annotation(adata, cluster_col, col_name)
 
@@ -281,15 +347,7 @@ class AnnotationService:
 
                         # Extract Colors & Build Summary
                         label_color_map = get_category_colors(adata, col_name)
-                        simple_summary = {}
-                        for c_id, details in cluster_summary.items():
-                            pred_label = details.get("predicted_cell_type", "Unknown")
-                            simple_summary[c_id] = {
-                                "predicted_cell_type": pred_label,
-                                "average_confidence": details.get("average_confidence", 0.0),
-                                "color": label_color_map.get(pred_label, "#808080")
-                            }
-                        thumbnail_data[report_key] = simple_summary
+                        thumbnail_data[report_key] = self._generate_thumbnail_summary(cluster_summary, label_color_map)
                     else:
                         full_report_data[report_key] = {"error": res["error"]}
 
@@ -299,7 +357,133 @@ class AnnotationService:
 
             msg_parts.append(f"CellTypist({len(request.model_names)})")
 
-        # 4. Persistence
+        # 4. LLM Annotation Step
+        if request.llm_annotation:
+            threshold = request.uncertain_threshold if request.uncertain_threshold else self.uncertain_threshold
+            logger.info("Starting LLM Annotation logic...")
+
+            if not cluster_col:
+                logger.warning("Skipping LLM Annotation: No clustering column found.")
+            else:
+                llm_dict = {}
+                uncertain_dict = {}
+
+                # Iterate through all generated results to populate llm_dict/uncertain_dict
+                for report_key, cluster_data in full_report_data.items():
+                    # Skip error entries
+                    if "error" in cluster_data:
+                        continue
+
+                    # Iterate over clusters in this report
+                    for cluster_id, info in cluster_data.items():
+                        # info has "predicted_cell_type", "average_confidence"
+                        pred_type = info.get("predicted_cell_type", "Unknown")
+                        confidence = info.get("average_confidence", 0.0)
+
+                        if confidence < threshold:
+                            # Scenario A: Low Confidence
+
+                            # 1. Add to uncertain_dict
+                            if cluster_id not in uncertain_dict:
+                                # Fetch DGEs
+                                try:
+                                    df_markers = sc.get.rank_genes_groups_df(adata, group=cluster_id)
+                                    dge_list = df_markers.head(20)['names'].tolist()
+                                    if not dge_list:
+                                        raise ValueError(f"Cluster {cluster_id} has no DGEs.")
+                                except Exception as e:
+                                    # Must actively Throw/Raise error
+                                    raise ValueError(f"Failed to retrieve DGE for Cluster {cluster_id}: {str(e)}")
+
+                                uncertain_dict[cluster_id] = [dge_list, set()]
+
+                            # Add label to set
+                            uncertain_dict[cluster_id][1].add(pred_type)
+
+                            # 2. Remove from llm_dict if present (Conflict Override)
+                            if cluster_id in llm_dict:
+                                del llm_dict[cluster_id]
+
+                        else:
+                            # Scenario B: High Confidence
+                            # Only add if NOT in uncertain_dict
+                            if cluster_id not in uncertain_dict:
+                                # Calculate cell count
+                                try:
+                                    c_count = int(adata.obs[cluster_col].value_counts()[cluster_id])
+                                except:
+                                    c_count = 0
+
+                                # Check if we have a better high-confidence result already
+                                current_entry = llm_dict.get(cluster_id)
+                                if current_entry:
+                                    if confidence <= current_entry["average_confidence"]:
+                                        continue  # Keep existing better result
+
+                                llm_dict[cluster_id] = {
+                                    "predicted_cell_type": pred_type,
+                                    "cell_count": c_count,
+                                    "agreement_fraction": 1.0,  # Placeholder for high confidence single source
+                                    "average_confidence": confidence,
+                                    "backup": pred_type
+                                }
+
+                # Call LLM if there are uncertain clusters
+                if uncertain_dict:
+                    logger.info(f"Calling LLM for {len(uncertain_dict)} uncertain clusters.")
+                    try:
+                        # Get the list of valid cell types
+                        valid_cell_types_str = self._get_czi_cell_types()
+                        llm_results = await self.llm_annotation(uncertain_dict, valid_cell_types_str)
+
+                        # Merge results back to llm_dict
+                        for cid, res in llm_results.items():
+                            llm_dict[cid] = res
+                    except Exception as e:
+                        logger.error(f"LLM Annotation process failed: {e}")
+                        # log and proceed with what we have (or re-raise if critical)
+                        raise e
+
+                # Final Processing of llm_dict
+                if llm_dict:
+                    # 1. Save to full_report_data
+                    full_report_data["llm_annotation"] = llm_dict
+
+                    # 2. Generate UMAP
+                    llm_col = "obs_llm_annotation"
+
+                    # Map cluster_id to predicted_cell_type
+                    mapping = {cid: data["predicted_cell_type"] for cid, data in llm_dict.items()}
+
+                    # Apply mapping
+                    adata.obs[llm_col] = adata.obs[cluster_col].astype(str).map(mapping).fillna("Unknown")
+                    adata.obs[llm_col] = adata.obs[llm_col].astype("category")
+
+                    # Bind Colors
+                    self._apply_cluster_colors_to_annotation(adata, cluster_col, llm_col)
+
+                    # Plot
+                    plot_key = "llm_annotation_plot"
+                    p_path = self._plot_annotated_umap(
+                        request.project_id, request.dataset_id, assets_base_path,
+                        adata, color_col=llm_col, title="LLM Annotation", suffix="llm_annotation"
+                    )
+                    if p_path:
+                        thumbnail_data[plot_key] = p_path
+
+                    # Add colors to llm_dict for report
+                    label_color_map = get_category_colors(adata, llm_col)
+
+                    # Generate summary for thumbnail
+                    thumbnail_data["llm_annotation"] = self._generate_thumbnail_summary(llm_dict, label_color_map)
+
+                    for cid, info in llm_dict.items():
+                        label = info.get("predicted_cell_type")
+                        info["color"] = label_color_map.get(label, "#808080")
+
+                    msg_parts.append(f"LLM({len(llm_dict)})")
+
+        # 5. Persistence
         json_filename = "json_report.json"
         json_path = get_dataset_relative(request.project_id, request.dataset_id, assets_base_path, json_filename)
         self.storage.save_file(full_report_data, json_path)
@@ -822,6 +1006,21 @@ class AnnotationService:
             msg="Multi-model annotation complete."
         )
 
+    def _generate_thumbnail_summary(self, cluster_summary: Dict[str, Any], label_color_map: Dict[str, str]) -> Dict[
+        str, Any]:
+        """
+        Helper to generate a simplified summary with colors for the thumbnail/frontend.
+        """
+        simple_summary = {}
+        for c_id, details in cluster_summary.items():
+            pred_label = details.get("predicted_cell_type", "Unknown")
+            simple_summary[c_id] = {
+                "predicted_cell_type": pred_label,
+                "average_confidence": details.get("average_confidence", 0.0),
+                "color": label_color_map.get(pred_label, "#808080")
+            }
+        return simple_summary
+
     def _plot_enrichment_bar(self, project_id: str, dataset_id: str, assets_base_path: str,
                              cluster_id: str, results: Dict[str, Any]) -> Optional[str]:
 
@@ -915,7 +1114,7 @@ class AnnotationService:
                 new_colors = []
 
                 for label in target_cats:
-                    # Find the first cell with this label
+                    # Find a representative cell for this label
                     mask = (adata.obs[target_annot_col] == label)
                     if mask.any():
                         # Find which original cluster ID this cell belonged to

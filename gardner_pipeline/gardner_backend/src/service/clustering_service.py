@@ -162,7 +162,8 @@ class ClusteringService:
                 use_rep="X_pca",
                 copy=False,
                 q=actual_q,
-                r=actual_r
+                r=actual_r,
+                core_frac=request.core_frac,
             )
         else:
             raise ValueError(f"Unsupported clustering method: {request.method}")
