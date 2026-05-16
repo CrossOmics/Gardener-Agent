@@ -51,16 +51,3 @@ Unlike existing cloud-centric LLM agents, Gardener ensures that **your sensitive
 
 4. **Review:**  
    Inspect the generated artifacts (UMAPs, marker genes, cell types) in the Analysis Inspector and adjust as needed.
-
-## Citation
-
-If you find Gardener useful in your research, please consider citing our work:
-
-```bibtex
-@inproceedings{anonymous2026gardener,
-  title={Gardener: An Agentic {AI} System for Single-Cell {RNA} Sequence Analysis},
-  author={Anonymous},
-  booktitle={ACL 2026 System Demonstration Track},
-  year={2026},
-  url={[https://openreview.net/forum?id=qLYwq1ll8g](https://openreview.net/forum?id=qLYwq1ll8g)}
-}
